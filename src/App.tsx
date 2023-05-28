@@ -1,7 +1,11 @@
+import AlienCard from "./components/AlienCard"
+import AlienList from "./components/AlienList"
+
 export default function App() {
   return (
-    <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
+    <div className="bg-cover">
+      <AlienList />
+      {/* <AlienCard /> */}
+    </div>
   )
 }
