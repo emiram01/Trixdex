@@ -1,21 +1,18 @@
 import { useEffect, useState } from 'react';
 import { fetchAliens } from '../utils/ContentParser';
+import { Alien } from '../utils/Interfaces';
 import AlienCard from './AlienCard';
 
-interface Alien {
-  articleName: string;
-  name: string;
-}
-
 export default function AlienList() {
-  const [aliens, setAliens] = useState<Alien[]>([]);
+  const [alienList, setAlienList] = useState<Alien[]>([]);
+  const [selectedAlien, setSelectedAlien] = useState<string | null>(null);
 
   useEffect(() => {  
     let isMounted = true;
     const fetchData = async () => {
       const fetchedAliens = await fetchAliens();
       if (isMounted)
-        setAliens(fetchedAliens);
+        setAlienList(fetchedAliens);
     };
 
     fetchData();
@@ -24,9 +21,24 @@ export default function AlienList() {
     };
   }, []);
 
+  const handleClick = (alienName: string) => {
+    setSelectedAlien(alienName);
+  };
+
   return (
-  <div>
-    {aliens.length > 0 && (<AlienCard alien={aliens[3].articleName} />)}
-  </div>
+    <div className='container mx-auto px-4'>
+      <div className='grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-4'>
+        {alienList.map((alien) => {
+          return (
+            <div key={alien.id}>
+              <button onClick={() => handleClick(alien.articleName)} className='font-semibold bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded'>
+                {alien.name}
+              </button>
+            </div>
+          );
+        })}
+      </div>
+      {selectedAlien && <AlienCard alien={selectedAlien} />}
+    </div>
   )
 }

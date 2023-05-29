@@ -3,9 +3,11 @@ import AlienList from "./components/AlienList"
 
 export default function App() {
   return (
-    <div className="bg-cover">
+    <>
+      <h1 className='container mx-auto text-xl font-extrabold'>
+        ALIEN LIST
+      </h1>
       <AlienList />
-      {/* <AlienCard /> */}
-    </div>
+    </>
   )
 }
