@@ -1,4 +1,3 @@
-import AlienCard from "./components/AlienCard"
 import AlienList from "./components/AlienList"
 
 export default function App() {

@@ -11,19 +11,19 @@ export async function fetchAliens(cancelTokenSource: CancelTokenSource): Promise
         )
         const content = getContent(response);
         const pattern = /\|articlename=([^\|\n]+)(?:\|name=([^\|\n]+))?.*?\}\}/g;
-        const result: Alien[] = [];
+        const aliens: Alien[] = [];
         let match = pattern.exec(content);
         let i = 0;
         while (i < ALIEN_RETURN_AMOUNT && match !== null) {
             const [, articleName, name] = match;
             const alienName = articleName.includes('Ultimate') ? articleName : name || articleName;
             const id = uuidv4();
-            result.push({ id, articleName, name: alienName });
+            aliens.push({ id, articleName, name: alienName });
             match = pattern.exec(content)
             i++;
         }
 
-        return result;
+        return aliens;
     } catch (error) {
         throw error
     }
@@ -37,15 +37,18 @@ export async function fetchAlienInformation(alien: Alien, cancelTokenSource: Can
         )
         const content: string = getContent(response);
         const fixedContent = fixContent(alien.name, content);
-        const result: AlienInformation[] = [];
-        result.push({
+        const alienInfo: AlienInformation[] = [];
+        alienInfo.push({
             id: alien.id,
-            species: getInfoFromContent('|species = ', fixedContent),
-            homePlanet: getInfoFromContent('|home-planet = ', fixedContent),
-            body: getInfoFromContent('|body = ', fixedContent),
+            species: getInfo('|species = ', fixedContent),
+            homePlanet: getInfo('|home-planet = ', fixedContent),
+            body: getInfo('|body = ', fixedContent),
+            description: getInfo('==Appearance==\n', fixedContent),
+            abilities: getInfo('==Powers and Abilities==\n', fixedContent),
+            weaknesses: getInfo('==Weaknesses==\n', fixedContent)
         });
 
-        return result;
+        return alienInfo;
     } catch (error) {
         throw error;
     }
@@ -57,11 +60,12 @@ function getContent(response: AxiosResponse): string {
     return content;
 }
 
-function getInfoFromContent(infoType: string, content: string): string {
+function getInfo(infoType: string, content: string): string {
     let info: string;
     let matches: RegExpMatchArray | null;
-    const startIndex = content.indexOf(infoType) + infoType.length;
-    const endIndex = content.indexOf('\n', startIndex);
+    let startIndex = content.indexOf(infoType) + infoType.length;
+
+    let endIndex = content.indexOf('\n', startIndex);
 
     switch (infoType) {
         case '|home-planet = ':
@@ -72,6 +76,28 @@ function getInfoFromContent(infoType: string, content: string): string {
         case '|body = ':
             matches = content.substring(startIndex, endIndex).match(/([^|\n<]+)/);
             info = matches ? matches[1].trim() : 'Unknown';
+            break;
+        case '==Appearance==\n':
+            info = content.substring(startIndex, endIndex);
+            if (info.includes('===')) {
+                startIndex = endIndex + 1;
+                endIndex = content.indexOf('\n', startIndex);
+                info = content.substring(startIndex, endIndex);
+            }
+            info = info.replace(/\[\[[^\]]+\|([^\]]+)\]\]/g, '$1').replace(/\[\[[^\]]+\|([^\]]+)\]\]|{{[^}]+}}|<ref[^>]*>.*?<\/ref>|<ref[^>]*\/>|\[\[|\]\]/g, '');
+            break;
+        case '==Powers and Abilities==\n':
+        case '==Weaknesses==\n':
+            info = content.substring(startIndex, endIndex);
+            if (info.includes('<gallery')) {
+                endIndex = content.indexOf('\n</gallery>', startIndex);
+                matches = content.substring(startIndex, endIndex).match(/(?:\|)([^\|\n]+)/g);
+                info = matches ? matches.map(match => match.replace('|', '')).join(', ').trim() : 'Unknown';
+            } else {
+                endIndex = content.indexOf(']]\n', startIndex);
+                matches = content.substring(startIndex, endIndex).match(/\[\[[^\]]+\|[^|\]]+\|([^\]]+)/);
+                info = matches ? matches[1] : 'Unknown';
+            }
             break;
         default:
             info = 'info not found';
@@ -85,22 +111,79 @@ function getInfoFromContent(infoType: string, content: string): string {
 function fixContent(name: string, content: string): string {
     switch(name) {
         case "Nanomech":
-            content = content.replace('\u00bd [[Human (Classic)|Human]] \u00bd [[Nanochip]]', '[[1/2 Human 1/2 Nanochip]]');
+            content = content
+            .replace('\u00bd [[Human (Classic)|Human]] \u00bd [[Nanochip]]', '[[1/2 Human 1/2 Nanochip]]');
             break;
         case "Upchuck":
             content = content
-            .replace('Perk/Murk [[Gourmand]]', '[[Perk/Murk Gourmand]]')
-            .replace(
-                "Peptos I - X <small>(destroyed)</small>{{Refn|name=TVPU|group=pop-up}}<ref name=\"TV\">''[[The Visitor]]''</ref><br>[[Peptos XI]] <small>(destroyed)</small><br>[[Peptos XII]]", 
-                '[[Peptos XII, Peptos I-XI (Destroyed)]]')
-            .replace('{{Refn|[[:File:Upchuck Amoeba Creature.png]]|group = TP|name = amoeba}}', 
-                '');
+            .replace('|species = ', '|species = [[Perk/Murk Gourmand]]')
+            .replace('|home-planet = ', '|home-planet = [[Peptos XII, Peptos I-XI (Destroyed)]]')
+            .replace('|body = ', '|body = Humanoid Amoeba\n')
+            .replace('\nPerk Upchuck', '\nUpchuck');
             break;
         case "Way Big":
-            content = content.concat("|home-planet = [[Cosmic storms]]\n")
+            content = content
+            .concat("|home-planet = [[Cosmic storms]]\n")
             break;
         case "Goop":
-            content = content.replace('Unknown <small>(native; destroyed)</small><br>[[Viscosia (Classic)|Viscosia]]', '[[Viscosia]]');
+            content = content
+            .replace('|home-planet = ', '|home-planet = [[Viscosia]]');
+            break;
+        case "Diamondhead":
+            content = content
+            .replace("form<ref>", " form,<ref>");
+            break;
+        case "Toepick":
+            content = content
+            .replace('==Weaknesses==\n', "==Weaknesses==\n [[|x|x|Unbalanced, Below Average Reflexes, Drones/Robots, Blind/Deaf Beings]]\n");
+            break;
+        case "Kickin Hawk":
+            content = content
+            .replace('==Weaknesses==\n', "==Weaknesses==\n [[|x|x|Vulnerablility to Energy-Based Attacks, Vulnerablility to Electricity]]\n");
+            break;
+        case "Bullfrag":
+            content = content
+            .replace('==Weaknesses==\n', "==Weaknesses==\n [[|x|x|Strong Smells, Overstretched Tongue]]\n");
+            break;
+        case "Snare-oh":
+            content = content
+            .replace('==Weaknesses==\n', "==Weaknesses==\n [[|x|x|Strong Winds, Freezing]]\n");
+            break;
+        case "Ripjaws":
+            content = content
+            .replace('== Powers and Abilities==', '==Powers and Abilities==');
+            break;
+        case "Chamalien":
+        case "Stinkfly":
+            content = content
+            .replace('== Appearance==', '==Appearance==');
+            break;
+        case "Pesky Dust":
+            content = content
+            .replace('==Weaknesses==\n', "==Weaknesses==\n [[|x|x|Small Size, Drones/Robots]]\n");
+            break;
+        case "Buzzshock":
+            content = content
+            .replace('==Weaknesses==\n', "==Weaknesses==\n [[|x|x|Small Size, Insulation]]\n");
+            break;
+        case "Mole-Stache":
+            content = content
+            .replace('==Weaknesses==\n', "==Weaknesses==\n [[|x|x|Small Size, Strength Limit]]\n");
+            break;
+        case "Arctiguana":
+            content = content
+            .replace('==Weaknesses==\n', "==Weaknesses==\n [[|x|x|Overexertion]]\n");
+            break; 
+        case "Eatle":
+            content = content
+            .replace("In '''[[Ben 10: Ultimate Alien|Ultimate Alien]]''', ", '');
+            break;
+        case "Blitzwolfer":
+            content = content
+            .replace("Blitzwolfer's appearance is based on a [[Wikipedia:Werewolf|werewolf]].\n\nIn the '''[[Ben 10|Original Series]]''',", '')
+            .replace(/had/g, 'has')
+            .replace(/was/g, 'is')
+            .replace(/wore/g, 'wears');
             break;
         default:
             break;

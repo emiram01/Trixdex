@@ -9,4 +9,7 @@ export interface AlienInformation {
     species: string;
     homePlanet: string; 
     body: string;
+    description: string
+    abilities: string
+    weaknesses: string
 }
