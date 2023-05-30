@@ -6,7 +6,6 @@ export interface Alien {
 
 export interface AlienInformation {
     id: string;
-    name: string;
     species: string;
     homePlanet: string; 
     body: string;
