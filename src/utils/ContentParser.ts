@@ -23,6 +23,8 @@ export async function fetchAliens(cancelTokenSource: CancelTokenSource): Promise
             i++;
         }
 
+        // console.log(JSON.stringify(aliens, null, 2));
+
         return aliens;
     } catch (error) {
         throw error
@@ -40,6 +42,7 @@ export async function fetchAlienInformation(alien: Alien, cancelTokenSource: Can
         const alienInfo: AlienInformation[] = [];
         alienInfo.push({
             id: alien.id,
+            name: alien.name,
             species: getInfo('|species = ', fixedContent),
             homePlanet: getInfo('|home-planet = ', fixedContent),
             body: getInfo('|body = ', fixedContent),
@@ -47,6 +50,8 @@ export async function fetchAlienInformation(alien: Alien, cancelTokenSource: Can
             abilities: getInfo('==Powers and Abilities==\n', fixedContent),
             weaknesses: getInfo('==Weaknesses==\n', fixedContent)
         });
+
+        console.log(JSON.stringify(alienInfo, null, 2));
 
         return alienInfo;
     } catch (error) {
@@ -184,6 +189,14 @@ function fixContent(name: string, content: string): string {
             .replace(/had/g, 'has')
             .replace(/was/g, 'is')
             .replace(/wore/g, 'wears');
+            break;
+        case "Echo Echo":
+            content = content
+            .replace('suit.{{Refn', 'suit.\n');
+            break;
+        case "Humungousaur":
+            content = content
+            .replace('side. Both', 'side.\n');
             break;
         default:
             break;

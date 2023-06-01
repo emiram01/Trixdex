@@ -1,0 +1,398 @@
+[
+  {
+      "id": "7dd4d506-57ba-4b36-b60e-acab5759019c",
+      "name": "Heatblast",
+      "species": "Pyronite",
+      "homePlanet": "Pyros",
+      "body": "Fiery Humanoid",
+      "description": "Heatblast is a plasma-based life-form whose body is composed of a super hot inner plasma body covered by dark reddish brown volcanic rocks. As a fire-based entity, his body radiates high amounts of heat.",
+      "abilities": [
+        "Pyrokinesis",
+        "Fire/Heat Absorption",
+        "Pyrokinetic Constructs",
+        "Flight",
+        "Cryokinesis (via Cold Virus)"
+      ],
+      "weaknesses": [
+        "Fire-Extinguishing Substances",
+        "Fire-Resistant Enemies",
+        "Reignition Limit"
+      ]
+  },
+  {
+      "id": "aeb87d11-36a3-47d5-a618-075915ece8bb",
+      "name": "Wildmutt",
+      "species": "Vulpimancer",
+      "homePlanet": "Vulpin",
+      "body": "Animalistic",
+      "description": "Wildmutt is a large orange dog-like creature with no eyes, ears, nose, or tail. The various spines found all across his body function similarly to whiskers with tactile sensing. He uses his sense of smell and hearing to navigate.",
+      "abilities": [
+        "Enhanced Senses",
+        "Invisibility Detection",
+        "Sharp Teeth/Claws",
+        "Quill Projection",
+        "Wall Scaling"
+      ],
+      "weaknesses": [
+        "Sensitive Hearing",
+        "Lack of Speech"
+      ]
+  },
+  {
+    "id": "d7dc9e44-ff86-4355-8f17-64059256890d",
+    "name": "Diamondhead",
+    "species": "Petrosapien",
+    "homePlanet": "Petropia",
+    "body": "Crystalline Humanoid",
+    "description": "Being a silicon-based life  form, Diamondhead's body is composed entirely of green/blue crystals, which are of a very hard durable, diamond-like substance. He sports four crystal shards on his back and has a sharp head.",
+    "abilities": [
+      "Crystallokinesis",
+      "Crystal Constructs",
+      "Body/Size Alteration",
+      "Invulnerability",
+      "Energy Absorption/Reflection"
+    ],
+    "weaknesses": [
+      "Sonic Vibration Vulnerability",
+      "Resistance Limit"
+    ]
+  },
+  {
+    "id": "38d7e88c-a36a-426d-a5d2-ca6a2dc67c55",
+    "name": "XLR8",
+    "species": "Kineceleran",
+    "homePlanet": "Kinet",
+    "body": "Humanoid Velociraptor",
+    "description": "XLR8 resembles a semi-armored Velociraptor. He has black orbs on his feet that help him reach running speeds of 500 miles per hour.",
+    "abilities": [
+      "Enhanced Speed",
+      "Accelerated Thinking",
+      "Vortex Generation",
+      "Sharp Claws",
+      "Wall Scaling"
+    ],
+    "weaknesses": [
+      "Slippery Surfaces",
+      "Electricity Vulnerability",
+      "Magnetic Vulnerability"
+    ]
+  },
+  {
+    "id": "b718cd07-7172-4890-a9ca-eab955abafd7",
+    "name": "Grey Matter",
+    "species": "Galvan",
+    "homePlanet": "Galvan Prime",
+    "body": "Humanoid Frog",
+    "description": "Grey Matter is a grey-skinned, frog-like, bipedal alien that is only six inches tall with large green eyes. His small size belies his great calculative and technical intellect.",
+    "abilities": [
+      "Enhanced Intelligence",
+      "Underwater Breathing",
+      "Technological Expertise",
+      "Wall Scaling",
+      "Sharp Teeth"
+    ],
+    "weaknesses": [
+      "Small Size"
+    ]
+  },
+  {
+    "id": "725c89f5-f3aa-48ab-9c40-8c991833b211",
+    "name": "Four Arms",
+    "species": "Tetramand",
+    "homePlanet": "Khoros",
+    "body": "Four-Armed Humanoid",
+    "description": "Four Arms is a humanoid alien that is ten feet tall. He has well-developed muscles, two pairs of four-fingered arms, and red skin. While he lacks ears and a nose, his four eyes make up for it.",
+    "abilities": [
+      "Enhanced Strength",
+      "Sonic Clap",
+      "Wrestling Proficiency",
+      "Enhanced Jumping",
+      "Slime Spit (via Cold Virus)"
+    ],
+    "weaknesses": [
+      "Large Size",
+      "Electricity Vulnerability",
+      "Quill Vulnerability"
+    ]
+  },
+  {
+    "id": "12538824-4a57-48a7-b925-4c5544f2a6f8",
+    "articleName": "Stinkfly (Classic)",
+    "name": "Stinkfly"
+  },
+  {
+    "id": "dfa740c4-eaa9-4241-82cc-e03a73450322",
+    "articleName": "Ripjaws (Classic)",
+    "name": "Ripjaws"
+  },
+  {
+    "id": "eabfdffb-6a9b-4846-904c-815aadc52ba9",
+    "articleName": "Upgrade (Classic)",
+    "name": "Upgrade"
+  },
+  {
+    "id": "d7b9814f-05a8-43f9-9dab-c7faa8a742eb",
+    "articleName": "Ghostfreak",
+    "name": "Ghostfreak"
+  },
+  {
+    "id": "51ea9734-d8f3-44eb-9984-9374a7f38fdf",
+    "articleName": "Cannonbolt (Classic)",
+    "name": "Cannonbolt"
+  },
+  {
+    "id": "fa765d24-1739-4edf-b653-c7586dfd88ca",
+    "articleName": "Wildvine (Classic)",
+    "name": "Wildvine"
+  },
+  {
+    "id": "d0f7000d-c135-42f3-bcca-1ae5824a62ad",
+    "articleName": "Spitter",
+    "name": "Spitter"
+  },
+  {
+    "id": "d5513cc6-e859-4057-90b9-b3662eee5aaf",
+    "articleName": "Buzzshock (Classic)",
+    "name": "Buzzshock"
+  },
+  {
+    "id": "cadb535c-2349-46d0-9cfb-b03ac25d552d",
+    "articleName": "Arctiguana",
+    "name": "Arctiguana"
+  },
+  {
+    "id": "2a2f8456-69ce-4296-b2b2-47c979c2e2c0",
+    "articleName": "Blitzwolfer",
+    "name": "Blitzwolfer"
+  },
+  {
+    "id": "df0d820c-6192-4986-b7a0-9eec62b30642",
+    "articleName": "Snare-oh",
+    "name": "Snare-oh"
+  },
+  {
+    "id": "a59e4d50-160c-4607-b8df-3181c561b2b2",
+    "articleName": "Frankenstrike",
+    "name": "Frankenstrike"
+  },
+  {
+    "id": "caabbe04-51a8-4ade-979d-158ee78e93f7",
+    "articleName": "Upchuck",
+    "name": "Upchuck"
+  },
+  {
+    "id": "bde8f86d-b416-4062-8121-0e1bde858959",
+    "articleName": "Ditto",
+    "name": "Ditto"
+  },
+  {
+    "id": "6903a6d3-b70b-45f3-8038-3928bbf31b84",
+    "articleName": "Eye Guy",
+    "name": "Eye Guy"
+  },
+  {
+    "id": "f97d1d4c-8ac2-4bf7-80d1-3f8e4177f28c",
+    "articleName": "Way Big (Classic)",
+    "name": "Way Big"
+  },
+  {
+    "id": "e49484d0-5500-47ea-9e50-af79cfe76e78",
+    "articleName": "Swampfire",
+    "name": "Swampfire"
+  },
+  {
+    "id": "241d8734-f5bd-4410-80e2-b19fe7ec7532",
+    "articleName": "Echo Echo",
+    "name": "Echo Echo"
+  },
+  {
+    "id": "f094c687-0a07-4c66-8c48-186acc6ebb88",
+    "articleName": "Humungousaur (Classic)",
+    "name": "Humungousaur"
+  },
+  {
+    "id": "497ee504-63b1-4a32-bdb4-e9817d7750ce",
+    "articleName": "Jetray (Classic)",
+    "name": "Jetray"
+  },
+  {
+    "id": "91837d56-06c0-47a9-85cb-b48f48f16235",
+    "articleName": "Big Chill (Classic)",
+    "name": "Big Chill"
+  },
+  {
+    "id": "975ef5b2-0066-4da2-8297-6024fddb21a4",
+    "articleName": "Chromastone (Classic)",
+    "name": "Chromastone"
+  },
+  {
+    "id": "f5107892-3eb6-40b6-bb5d-4502a8e018cd",
+    "articleName": "Brainstorm",
+    "name": "Brainstorm"
+  },
+  {
+    "id": "0497781b-363b-4919-8507-2711abc2c084",
+    "articleName": "Spidermonkey (Classic)",
+    "name": "Spidermonkey"
+  },
+  {
+    "id": "10281710-3a96-4463-b1b9-781148049a02",
+    "articleName": "Goop (Classic)",
+    "name": "Goop"
+  },
+  {
+    "id": "da7a0735-008b-43e4-9c9f-e77c3754c8b0",
+    "articleName": "Alien X (Classic)",
+    "name": "Alien X"
+  },
+  {
+    "id": "066076c0-1e0a-470b-bf1e-447e997ea068",
+    "articleName": "Nanomech",
+    "name": "Nanomech"
+  },
+  {
+    "id": "21385c36-a276-48a5-a512-688a650a747e",
+    "articleName": "Lodestar",
+    "name": "Lodestar"
+  },
+  {
+    "id": "0a8267b5-1cd4-4130-bc74-32dd5c0231f7",
+    "articleName": "Rath (Classic)",
+    "name": "Rath"
+  },
+  {
+    "id": "12f2be03-db57-4633-8f5b-88fb1e0fa71e",
+    "articleName": "Water Hazard",
+    "name": "Water Hazard"
+  },
+  {
+    "id": "7b35cdb9-40cd-486e-876c-e72d49e85633",
+    "articleName": "Ampfibian (Classic)",
+    "name": "Ampfibian"
+  },
+  {
+    "id": "83f88f37-1e81-462d-9486-68f4dc3ac82e",
+    "articleName": "Armodrillo",
+    "name": "Armodrillo"
+  },
+  {
+    "id": "473ee47e-23ff-4c32-b465-3e7985b99d94",
+    "articleName": "Terraspin",
+    "name": "Terraspin"
+  },
+  {
+    "id": "cf93c207-f0f2-435e-bcd8-bafb32223eb2",
+    "articleName": "NRG",
+    "name": "NRG"
+  },
+  {
+    "id": "69c6d6ec-4a77-48ee-8cac-a4d824f06ac3",
+    "articleName": "Fasttrack",
+    "name": "Fasttrack"
+  },
+  {
+    "id": "3f5b0896-70fc-4adf-bb8c-63a43d8b1c4e",
+    "articleName": "Chamalien",
+    "name": "Chamalien"
+  },
+  {
+    "id": "5e223136-f65f-459c-b1b2-152bfeefa473",
+    "articleName": "Eatle",
+    "name": "Eatle"
+  },
+  {
+    "id": "e72155e0-aa51-41e3-8e0a-d3ffef55a786",
+    "articleName": "Clockwork",
+    "name": "Clockwork"
+  },
+  {
+    "id": "8dfb9987-cdc2-4d9d-b794-e5cc90d8d959",
+    "articleName": "Shocksquatch",
+    "name": "Shocksquatch"
+  },
+  {
+    "id": "082645f7-6aba-4496-bd51-1780f0f35a74",
+    "articleName": "Juryrigg",
+    "name": "Juryrigg"
+  },
+  {
+    "id": "dbefa37a-68a1-4a29-b178-f0eeb88fe581",
+    "articleName": "Feedback",
+    "name": "Feedback"
+  },
+  {
+    "id": "61b21a0e-2cd1-44b9-b173-c6378c0af96c",
+    "articleName": "Bloxx (Classic)",
+    "name": "Bloxx"
+  },
+  {
+    "id": "166337b9-e550-4ee4-8ee0-44cb44df76a6",
+    "articleName": "Gravattack",
+    "name": "Gravattack"
+  },
+  {
+    "id": "2de6cc1a-146d-4259-98d2-4542d8b46d36",
+    "articleName": "Crashhopper",
+    "name": "Crashhopper"
+  },
+  {
+    "id": "4f502777-79a0-4d8e-b487-dd2a82e7ab43",
+    "articleName": "Ball Weevil",
+    "name": "Ball Weevil"
+  },
+  {
+    "id": "22bada40-2190-4edf-a526-7dd53cf46f21",
+    "articleName": "Walkatrout",
+    "name": "Walkatrout"
+  },
+  {
+    "id": "4118f6ae-fa80-4126-99b0-26e4c91656d6",
+    "articleName": "Pesky Dust",
+    "name": "Pesky Dust"
+  },
+  {
+    "id": "fd1b6433-3a26-45e3-b257-f47a7e80b3ed",
+    "articleName": "Mole-Stache",
+    "name": "Mole-Stache"
+  },
+  {
+    "id": "7794255c-77e3-4d60-893c-a57cc4bb0f3d",
+    "articleName": "The Worst",
+    "name": "The Worst"
+  },
+  {
+    "id": "57d1f613-b8ca-4475-ba1e-9d365962e1d4",
+    "articleName": "Kickin Hawk",
+    "name": "Kickin Hawk"
+  },
+  {
+    "id": "2645dd83-a836-4fb6-8787-a105fd61ec0f",
+    "articleName": "Toepick",
+    "name": "Toepick"
+  },
+  {
+    "id": "35702df9-5832-4da9-a94a-23aaf2ecb3bd",
+    "articleName": "Astrodactyl",
+    "name": "Astrodactyl"
+  },
+  {
+    "id": "8fa7693a-9521-4763-9468-cd2f589b5aba",
+    "articleName": "Bullfrag",
+    "name": "Bullfrag"
+  },
+  {
+    "id": "f6ff047e-d8ef-4ff3-856a-133bbd5a21b7",
+    "articleName": "Atomix",
+    "name": "Atomix"
+  },
+  {
+    "id": "828bfd7d-18e4-455c-9ba1-b3c968e0108f",
+    "articleName": "Gutrot",
+    "name": "Gutrot"
+  },
+  {
+    "id": "668b3d5e-8fa3-43bb-bc5d-4e6301b93bb2",
+    "articleName": "Whampire",
+    "name": "Whampire"
+  }
+]
