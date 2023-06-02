@@ -10,12 +10,13 @@
         "Pyrokinesis",
         "Fire/Heat Absorption",
         "Pyrokinetic Constructs",
+        "Fire Transportation",
         "Flight",
-        "Cryokinesis (via Cold Virus)"
+        "Limited Terrakinesis"
       ],
       "weaknesses": [
-        "Fire-Extinguishing Substances",
-        "Fire-Resistant Enemies",
+        "Fire Suppressants",
+        "Fire-Resistant Opponents",
         "Reignition Limit"
       ]
   },
@@ -31,7 +32,8 @@
         "Invisibility Detection",
         "Sharp Teeth/Claws",
         "Quill Projection",
-        "Wall Scaling"
+        "Wall Scaling",
+        "Enhanced Strength"
       ],
       "weaknesses": [
         "Sensitive Hearing",
@@ -50,7 +52,8 @@
       "Crystal Constructs",
       "Body/Size Alteration",
       "Invulnerability",
-      "Energy Absorption/Reflection"
+      "Energy Absorption/Reflection",
+      "Enhanced Strength"
     ],
     "weaknesses": [
       "Sonic Vibration Vulnerability",
@@ -74,7 +77,7 @@
     "weaknesses": [
       "Slippery Surfaces",
       "Electricity Vulnerability",
-      "Magnetic Vulnerability"
+      "Electromagnetic Vulnerability"
     ]
   },
   {
@@ -107,7 +110,7 @@
       "Sonic Clap",
       "Wrestling Proficiency",
       "Enhanced Jumping",
-      "Slime Spit (via Cold Virus)"
+      "Enhanced Durability"
     ],
     "weaknesses": [
       "Large Size",
@@ -116,164 +119,668 @@
     ]
   },
   {
-    "id": "12538824-4a57-48a7-b925-4c5544f2a6f8",
-    "articleName": "Stinkfly (Classic)",
-    "name": "Stinkfly"
+    "id": "bbc2f0f4-7e19-4016-9489-a5c64f7db2f5",
+    "name": "Stinkfly",
+    "species": "Lepidopterran",
+    "homePlanet": "Lepidopterra",
+    "body": "Winged Insectoid",
+    "description": "Stinkfly possesses two dragon-shaped insectoid wings that allow quick and agile flying and can change directions at exceptional paces. He has four small eyes on long prehensile stalks connected to his large head, which can all be moved around independently from each other.",
+    "abilities": [
+      "Slime Generation",
+      "Flight",
+      "360° Vision",
+      "Enhanced Reflexes",
+      "Sharp Tail",
+      "Toxic Gas"
+    ],
+    "weaknesses": [
+      "Water Vulnerability",
+      "Electricity Vulnerability",
+      "Detected by Smell"
+    ]
   },
   {
-    "id": "dfa740c4-eaa9-4241-82cc-e03a73450322",
-    "articleName": "Ripjaws (Classic)",
-    "name": "Ripjaws"
+    "id": "7fab0c51-6033-488b-b00e-49336bf662df",
+    "name": "Ripjaws",
+    "species": "Piscciss Volann",
+    "homePlanet": "Piscciss",
+    "body": "Humanoid Anglerfish",
+    "description": "Ripjaws shares a number of traits with Earth's aquatic life, including those of an alligator, an eel, a leech, an anglerfish, and a shark. He can change between a fishtail or legs at will and has a phosphorescent light on his head.",
+    "abilities": [
+      "Sharp Teeth/Claws",
+      "Enhanced Speed (Underwater)",
+      "Underwater Breathing",
+      "Glowing Lure",
+      "Enhanced Strength",
+      "Enhanced Stomach Capacity"
+    ],
+    "weaknesses": [
+      "Dehydration",
+      "Heat Vulnerability",
+      "Electricity Vulnerability"
+    ]
   },
   {
-    "id": "eabfdffb-6a9b-4846-904c-815aadc52ba9",
-    "articleName": "Upgrade (Classic)",
-    "name": "Upgrade"
+    "id": "97b7914f-74de-4a70-a116-4091fac8600d",
+    "name": "Upgrade",
+    "species": "Galvanic Mechamorph",
+    "homePlanet": "Galvan B",
+    "body": "Technological Humanoid",
+    "description": "Upgrade is an amorphous alien whose body is made up of billions of small cell-like creatures called nanites allowing him to reshape and possess any technology.",
+    "abilities": [
+      "Technological Possession/Enhancement",
+      "Body/Size Alteration",
+      "Regeneration",
+      "Techno Constructs",
+      "Bio-Electricity Generation",
+      "Optic Laser"
+    ],
+    "weaknesses": [
+      "Electromagnetic Vulnerability",
+      "Electricity Vulnerability",
+      "Elasticity Limit"
+    ]
   },
   {
-    "id": "d7b9814f-05a8-43f9-9dab-c7faa8a742eb",
-    "articleName": "Ghostfreak",
-    "name": "Ghostfreak"
+    "id": "9cde3ede-f718-4916-9067-163d86db2ac3",
+    "name": "Ghostfreak",
+    "species": "Ectonurite",
+    "homePlanet": "Anur Phaetos",
+    "body": "Ghost",
+    "description": "Ghostfreak is a phantom/ghost-like alien with a gaseous appearance and claw-like hands. He possesses removable skin, revealing tentacles underneath, and can render himself invisible when necessary.",
+    "abilities": [
+      "Invisibility/Intangibility",
+      "Body Possession",
+      "Tentacles",
+      "Flight",
+      "Telekinesis/Telepathy",
+      "Sharp Claws"
+    ],
+    "weaknesses": [
+      "Ineffective Body Possession",
+      "Sunlight (Skin Removed)",
+      "Electricity Vulnerability"
+    ]
   },
   {
-    "id": "51ea9734-d8f3-44eb-9984-9374a7f38fdf",
-    "articleName": "Cannonbolt (Classic)",
-    "name": "Cannonbolt"
+    "id": "5215828a-2ed7-4eae-9921-46b5e2e3e0ad",
+    "name": "Cannonbolt",
+    "species": "Arburian Pelarota",
+    "homePlanet": "Arburia",
+    "body": "Pillbug",
+    "description": "Cannonbolt is a hulking, broad-shouldered alien covered in natural, yellow armor plating on his back. When rolled up, he becomes a motorized wheel that can move at great speeds.",
+    "abilities": [
+      "Sphere Transformation",
+      "Enhanced Durability",
+      "Enhanced Strength",
+      "Enhanced Speed (Sphere Form)",
+      "Shell Deflection",
+      "Sharp Claws"
+    ],
+    "weaknesses": [
+      "Large Size",
+      "Electricity Vulnerability"
+    ]
   },
   {
-    "id": "fa765d24-1739-4edf-b653-c7586dfd88ca",
-    "articleName": "Wildvine (Classic)",
-    "name": "Wildvine"
+    "id": "f4861e11-74d4-421b-b4eb-39e7237a5cdf",
+    "name": "Wildvine",
+    "species": "Florauna",
+    "homePlanet": "Flors Verdance",
+    "body": "Humanoid Plant",
+    "description": "Wildvine is a humanoid plant with one eye in the middle of his face, vine-like legs, and pods on his back that he can use as explosives or smoke bombs.",
+    "abilities": [
+      "Chlorokinesis",
+      "Body/Size Alteration",
+      "Multipurpose Fruit Pods",
+      "Thorn Projection",
+      "Plant Merging",
+      "Regeneration"
+    ],
+    "weaknesses": [
+      "Elasticity Limit",
+      "Electricity Vulnerability",
+      "Heat Vulnerability"
+    ]
   },
   {
-    "id": "d0f7000d-c135-42f3-bcca-1ae5824a62ad",
-    "articleName": "Spitter",
-    "name": "Spitter"
+    "id": "c37fc161-399d-421a-ba50-170205900772",
+    "name": "Spitter",
+    "species": "Sphoeroid",
+    "homePlanet": "Scalpasc",
+    "body": "Humanoid Pufferfish",
+    "description": "Spitter is a bulbous alien resembling a pufferfish with legs. He can inflate into a ball-like shape and spit out a concentrated blast of very slippery slime",
+    "abilities": [
+      "Slime Spit",
+      "Conductive Slime",
+      "Toxic Gas Immunity",
+      "Sharp Teeth"
+    ],
+    "weaknesses": [
+      "Unknown"
+    ]
   },
   {
-    "id": "d5513cc6-e859-4057-90b9-b3662eee5aaf",
-    "articleName": "Buzzshock (Classic)",
-    "name": "Buzzshock"
+    "id": "caa8cf9e-e0e6-4d30-89f3-689d1e0f0969",
+    "name": "Buzzshock",
+    "species": "Nosedeenian",
+    "homePlanet": "Nosideen Quasar",
+    "body": "Humanoid Battery",
+    "description": "Buzzshock's appearance is similar to an Earth dry cell battery, albeit rounded out. He has positive (+) and negative (-) symbols on his back, symbolizing his ability to manipulate electricity.",
+    "abilities": [
+      "Electrokinesis",
+      "Electricity Absorption",
+      "Electrical Possession",
+      "Self-Duplication",
+      "Flight",
+      "Enhanced Reflexes"
+    ],
+    "weaknesses": [
+      "Small Size",
+      "Insulation",
+      "Lack of Speech"
+    ]
   },
   {
-    "id": "cadb535c-2349-46d0-9cfb-b03ac25d552d",
-    "articleName": "Arctiguana",
-    "name": "Arctiguana"
+    "id": "9a998530-b171-46f1-9a13-486b63d805ca",
+    "name": "Arctiguana",
+    "species": "Polar Manzardill",
+    "homePlanet": "X'Nelli",
+    "body": "Iguana",
+    "description": "As his name suggests, Arctiguana's appearance somewhat resembles an iguana. He is a cold-blooded alien, like normal reptiles, whose blood is literally very cold.",
+    "abilities": [
+      "Freeze Ray",
+      "Propulsion (via Freeze Ray)",
+      "Ice Constructs",
+      "Cold Immunity",
+      "Enhanced Agility",
+      "Wall Scaling"
+    ],
+    "weaknesses": [
+      "Overexertion"
+    ]
   },
   {
-    "id": "2a2f8456-69ce-4296-b2b2-47c979c2e2c0",
-    "articleName": "Blitzwolfer",
-    "name": "Blitzwolfer"
+    "id": "81c583e2-3711-46dc-9fbd-f4855c63042b",
+    "name": "Blitzwolfer",
+    "species": "Loboan",
+    "homePlanet": "Luna Lobo",
+    "body": "Werewolf/Humanoid Canine",
+    "description": "Blitzwolfer has grey fur and a long flowing mane. By opening his quad-hinged muzzle, he can emit a powerful, green, ultrasonic howl.",
+    "abilities": [
+      "Sonic Howl",
+      "Propulsion (via Sonic Howl)",
+      "Night Vision",
+      "Enhanced Strength",
+      "Enhanced Senses",
+      "Sharp Claws"
+    ],
+    "weaknesses": [
+      "Sensitive Hearing"
+    ]
   },
   {
-    "id": "df0d820c-6192-4986-b7a0-9eec62b30642",
-    "articleName": "Snare-oh",
-    "name": "Snare-oh"
+    "id": "bc68200d-78e6-44a8-ae10-b5e6d46e2bbb",
+    "name": "Snare-oh",
+    "species": "Thep Khufan",
+    "homePlanet": "Anur Khufos",
+    "body": "Humanoid Mummy",
+    "description": "Snare-oh is a mummy-like alien whose bandages are made from an alien material that feels like old cloth, but do have elasticity which allows him to reshape his body at will.",
+    "abilities": [
+      "Bandage Generation",
+      "Body/Size Alteration",
+      "Flight",
+      "Unraveling",
+      "Regeneration",
+      "Night Vision"
+    ],
+    "weaknesses": [
+      "Strong Wind Vulnerability",
+      "Cold Vulnerability"
+    ]
   },
   {
-    "id": "a59e4d50-160c-4607-b8df-3181c561b2b2",
-    "articleName": "Frankenstrike",
-    "name": "Frankenstrike"
+    "id": "5f5b8335-91ea-43ab-9536-4cad732ed3ef",
+    "name": "Frankenstrike",
+    "species": "Transylian",
+    "homePlanet": "Anur Transyl",
+    "body": "Cyborg Humanoid",
+    "description": "Frankenstrike is a seven-foot-tall monster/cyborg humanoid. He has two large tower-shaped, conductor coil-like generators located on his upper back that allow him to generate and manipulate lightning and electromagnetism.",
+    "abilities": [
+      "Electrokinesis",
+      "Electromagnetism",
+      "Electricity Waves",
+      "Energy Beams",
+      "Enhanced Strength"
+    ],
+    "weaknesses": [
+      "Electricity Absorption",
+      "Large Size"
+    ]
   },
   {
-    "id": "caabbe04-51a8-4ade-979d-158ee78e93f7",
-    "articleName": "Upchuck",
-    "name": "Upchuck"
+    "id": "0ee03aa1-53a6-4889-a186-0f8813cb3d37",
+    "name": "Upchuck",
+    "species": "Perk/Murk Gourmand",
+    "homePlanet": "Peptos XII, Peptos I-XI (Destroyed)",
+    "body": "Humanoid Amoeba",
+    "description": "Upchuck is a vaguely humanoid amoeba-like creature with green skin. He has multiple adhesive tongues that can stretch to great lengths, allowing him to latch onto large objects and reel them in for consumption.",
+    "abilities": [
+      "Prehensile Tongue",
+      "Matter Ingestion",
+      "Slime/Acid Spit",
+      "Explosive Vomit",
+      "Enhanced Stomach Capacity"
+    ],
+    "weaknesses": [
+      "Ingestion Limit",
+      "Hunger Temptation"
+    ]
   },
   {
-    "id": "bde8f86d-b416-4062-8121-0e1bde858959",
-    "articleName": "Ditto",
-    "name": "Ditto"
+    "id": "e1ff1e40-6638-422d-af5d-9652f1808bd8",
+    "name": "Ditto",
+    "species": "Splixson",
+    "homePlanet": "Hathor",
+    "body": "Humanoid",
+    "description": "Ditto is about the height of an average human child. He has gem-like extended sensory nodes on his arms and waist, and the ability to clone himself without limits through binary fission.",
+    "abilities": [
+      "Self-Duplication",
+      "Hive Mind Communication",
+      "Enhanced Agility",
+      "Underwater Breathing"
+    ],
+    "weaknesses": [
+      "Recharge Mode Inhibition",
+      "Electricity Vulnerability",
+      "Cold Vulnerability"
+    ]
   },
   {
-    "id": "6903a6d3-b70b-45f3-8038-3928bbf31b84",
-    "articleName": "Eye Guy",
-    "name": "Eye Guy"
+    "id": "e6dc6b11-ea98-4f51-ad37-7af0f081e655",
+    "name": "Eye Guy",
+    "species": "Opticoid",
+    "homePlanet": "Sightra",
+    "body": "Humanoid",
+    "description": "Eye Guy has a muscular build with an entire upper-body covered in green eyes, around 20 of them, allowing him to see in all directions at once. His entire skeleton is made of cartilage, not bones.",
+    "abilities": [
+      "Ophthalmokinesis",
+      "360° Vision",
+      "Enhanced Senses",
+      "Electricity Beams",
+      "Freeze Rays",
+      "Fire Blasts",
+      "Eye Goop"
+    ],
+    "weaknesses": [
+      "Physical Eye Damage",
+      "Sensitive Hearing",
+      "Amplified Phobias"
+    ]
   },
   {
-    "id": "f97d1d4c-8ac2-4bf7-80d1-3f8e4177f28c",
-    "articleName": "Way Big (Classic)",
-    "name": "Way Big"
+    "id": "fb915161-e833-403b-8a87-36181374e422",
+    "name": "Way Big",
+    "species": "To'kustar",
+    "homePlanet": "Cosmic Storms",
+    "body": "Giant Humanoid",
+    "description": "Way Big is a white colossal humanoid creature with a large fin on his head. He can can shoot powerful cosmic rays by crossing his arms together and grow to immense size",
+    "abilities": [
+      "Size Alteration",
+      "Cosmic Rays",
+      "Enhanced Strength",
+      "Enhanced Durability",
+      "Enhanced Speed",
+      "Cosmic Storm Manipulation"
+    ],
+    "weaknesses": [
+      "Tiny Opponents",
+      "Head Fin Vulnerability",
+      "Electricity Vulnerability"
+    ]
   },
   {
-    "id": "e49484d0-5500-47ea-9e50-af79cfe76e78",
-    "articleName": "Swampfire",
-    "name": "Swampfire"
+    "id": "d054a122-f17a-40f5-bade-0edc948e37fe",
+    "name": "Swampfire",
+    "species": "Methanosian",
+    "homePlanet": "Methanos",
+    "body": "Humanoid Plant",
+    "description": "Swampfire is a humanoid, plant-like alien that is taller than an average human and has a distinct rotten stench that worsens with heat.",
+    "abilities": [
+      "Chlorokinesis",
+      "Pyrokinesis",
+      "Body/Size Alteration",
+      "Regeneration",
+      "Sentient Plant Control",
+      "Flight",
+      "Malleable Physiology"
+    ],
+    "weaknesses": [
+      "Electricity Vulnerability",
+      "Sonic Vibration Vulnerability",
+      "Pesticide Vulnerability"
+    ]
   },
   {
-    "id": "241d8734-f5bd-4410-80e2-b19fe7ec7532",
-    "articleName": "Echo Echo",
-    "name": "Echo Echo"
+    "id": "17566339-47ef-422e-a37d-dfb7dd118c25",
+    "name": "Echo Echo",
+    "species": "Sonorosian",
+    "homePlanet": "Sonorosia",
+    "body": "Humanoid",
+    "description": "Echo Echo is a small, white humanoid made of silicon. Although he strongly resembles a robot, his body is natural.",
+    "abilities": [
+      "Sonic Scream",
+      "Self-Duplication",
+      "Echo Chamber",
+      "Sonic Force Fields",
+      "Echolocation",
+      "Object Duplication"
+    ],
+    "weaknesses": [
+      "Fire Vulnerability",
+      "Electricity Vulnerability",
+      "Quill Vulnerability"
+    ]
   },
   {
-    "id": "f094c687-0a07-4c66-8c48-186acc6ebb88",
-    "articleName": "Humungousaur (Classic)",
-    "name": "Humungousaur"
+    "id": "a7d1a7ad-84ac-4db8-a3d6-18549b4cfb48",
+    "name": "Humungousaur",
+    "species": "Vaxasaurian",
+    "homePlanet": "Terradino",
+    "body": "Humanoid Dinosaur",
+    "description": "Humungousaur is a somewhat humanoid dinosaur standing about twelve feet tall with hard brown skin and incredible strength.",
+    "abilities": [
+      "Size Alteration",
+      "Enhanced Strength",
+      "Enhanced Durability",
+      "Enhanced Jumping",
+      "Fire/Heat Resistance",
+      "Tail Whip"
+    ],
+    "weaknesses": [
+      "Large Size",
+      "Electricity Vulnerability",
+      "Resistance Limit"
+    ]
   },
   {
-    "id": "497ee504-63b1-4a32-bdb4-e9817d7750ce",
-    "articleName": "Jetray (Classic)",
-    "name": "Jetray"
+    "id": "b5339e91-7e40-45ed-a761-baa874e43e97",
+    "name": "Jetray",
+    "species": "Aerophibian",
+    "homePlanet": "Aeropela",
+    "body": "Humanoid Manta Ray",
+    "description": "Jetray is a red, humanoid manta ray-like alien with a yellow patagia that he uses to fly and glide through water at supersonic speeds.",
+    "abilities": [
+      "Neuroshock Blasts",
+      "Flight",
+      "Sonic Boom Generation",
+      "Enhanced Speed (Air/Underwater)",
+      "Underwater Breathing",
+      "Fire/Heat Immunity",
+      "Hyperspace Entrance"
+    ],
+    "weaknesses": [
+      "Ineffective Neuroshock Blasts",
+      "Strong Wind Vulnerability"
+    ]
   },
   {
-    "id": "91837d56-06c0-47a9-85cb-b48f48f16235",
-    "articleName": "Big Chill (Classic)",
-    "name": "Big Chill"
+    "id": "71d5b9a5-fca6-4ac8-824a-572cfac1c160",
+    "name": "Big Chill",
+    "species": "Necrofriggian",
+    "homePlanet": "Kylmyys",
+    "body": "Humanoid Moth",
+    "description": "Big Chill is a humanoid, moth-like alien, whose four wings and two antennae-like wing folds can fold up into a poncho-esque robe with a hood, giving him the appearance of a phantom.",
+    "abilities": [
+      "Cryokinesis",
+      "Ice Constructs",
+      "Flight",
+      "Intangibility",
+      "Sharp Claws",
+      "Underwater Breathing",
+      "Hypnosis Resistance",
+      "Matter Ingestion"
+    ],
+    "weaknesses": [
+      "Intangibile Opponents",
+      "Fire Vulnerability",
+      "Electricity Vulnerability"
+    ]
   },
   {
-    "id": "975ef5b2-0066-4da2-8297-6024fddb21a4",
-    "articleName": "Chromastone (Classic)",
-    "name": "Chromastone"
+    "id": "7e84c567-2627-47f9-a556-dde30cf48a9c",
+    "name": "Chromastone",
+    "species": "Crystalsapien",
+    "homePlanet": "Petropia",
+    "body": "Crystalline Humanoid",
+    "description": "Chromastone is a silicon-based alien made of extremely durable crystal which enables him to absorb various forms of energy and channel it into powerful ultraviolet beams.",
+    "abilities": [
+      "Dynakinesis",
+      "Energy Absorption/Conversion",
+      "Energy Beams",
+      "Light Constructs",
+      "Enhanced Durability",
+      "Electricity Immunity",
+      "Flight"
+    ],
+    "weaknesses": [
+      "Absorption Limit"
+    ]
   },
   {
-    "id": "f5107892-3eb6-40b6-bb5d-4502a8e018cd",
-    "articleName": "Brainstorm",
-    "name": "Brainstorm"
+    "id": "5bf8c3ac-ed60-43d9-8ce0-5915d153a210",
+    "name": "Brainstorm",
+    "species": "Cerebrocrustacean",
+    "homePlanet": "Encephalonus IV",
+    "body": "Crustacean-like",
+    "description": "Brainstorm has a light orange crab-like appearance with pincers for hands. He can open his skull plates at will to reveal his huge, corrugated brain, enabling his electrical powers. He is said to have an IQ of about one nonillion (10^30).",
+    "abilities": [
+      "Enhanced Intelligence",
+      "Bio-Electrokinesis",
+      "Technokinesis",
+      "Force Field Generation",
+      "Sharp Pincers",
+      "Flight",
+      "Underwater Breathing"
+    ],
+    "weaknesses": [
+      "Physical Brain Damage",
+      "Sonic Vibration Vulnerability"
+    ]
   },
   {
-    "id": "0497781b-363b-4919-8507-2711abc2c084",
-    "articleName": "Spidermonkey (Classic)",
-    "name": "Spidermonkey"
+    "id": "f870acbf-9604-4158-8d8e-71e32e85578e",
+    "name": "Spidermonkey",
+    "species": "Arachnichimp",
+    "homePlanet": "Aranhascimmia",
+    "body": "Four-Armed Monkey",
+    "description": "Spidermonkey is a small monkey-like alien with four arms and blue fur. He has the ability to expel webbing using a silk as strong as steel cable from his tail.",
+    "abilities": [
+      "Web Generation",
+      "Web Constructs",
+      "Enhanced Strength",
+      "Enhanced Agility",
+      "Wall Scaling"
+    ],
+    "weaknesses": [
+      "Dissolvable Webs",
+      "Quill Vulnerability"
+    ]
   },
   {
-    "id": "10281710-3a96-4463-b1b9-781148049a02",
-    "articleName": "Goop (Classic)",
-    "name": "Goop"
+    "id": "a95e82bc-bd1a-483d-990a-9a64e74ffdba",
+    "name": "Goop",
+    "species": "Polymorph",
+    "homePlanet": "Viscosia",
+    "body": "Various",
+    "description": "Being a 200-pound single-celled organism that is neither liquid nor solid but a colloidal suspension, Goop is a humanoid pile of goo that can take any shape at will. Goop has an Anti-Gravity Projector that allows him mobility in Earth's gravity, flight, voice projection. His brain is spread throughout his body.",
+    "abilities": [
+      "Gookinetic",
+      "Slime Generation",
+      "Body/Size Alteration",
+      "Regeneration",
+      "Acidic Transformation",
+      "Flight (via Anti-Gravity Projector)"
+    ],
+    "weaknesses": [
+      "Anti-Gravity Projector Vulnerability",
+      "Strong Wind Vulnerability",
+      "Boiling Point Limit"
+    ]
   },
   {
-    "id": "da7a0735-008b-43e4-9c9f-e77c3754c8b0",
-    "articleName": "Alien X (Classic)",
-    "name": "Alien X"
+    "id": "8446cc29-275c-4778-b849-ada6a7e379ef",
+    "name": "Alien X",
+    "species": "Celestialsapien",
+    "homePlanet": "Forge of Creation",
+    "body": "Humanoid",
+    "description": "Alien X is a humanoid alien whose body has the appearance of a starry night sky. He is able to warp reality, time, and space with ease and at any level he wishes. Even his thoughts can become real. In short, Alien X can do anything, as long as his three personalities (Serena, the \"voice of love and compassion\"; Bellicus, the \"voice of rage and aggression\"; and Ben, the \"voice of reason\") agree.",
+    "abilities": [
+      "Omnipotence",
+      "Universe Recreation",
+      "Time Manipulation",
+      "Reality Warping",
+      "Enhanced Everything",
+      "Invulnerability",
+      "Universal Destruction Survivability",
+      "Extradimensional Field Piercing"
+    ],
+    "weaknesses": [
+      "Agreement Dependecy",
+      "Other Celestialsapiens"
+    ]
   },
   {
-    "id": "066076c0-1e0a-470b-bf1e-447e997ea068",
-    "articleName": "Nanomech",
-    "name": "Nanomech"
+    "id": "b8453c17-28a2-46ca-a1e7-f5a2903b7a49",
+    "name": "Nanomech",
+    "species": "1/2 Human 1/2 Nanochip",
+    "homePlanet": "Unknown",
+    "body": "Robotic Humanoid Insect",
+    "description": "Nanomech is about a centimeter tall at full size. His body is a carbon or silicon-based alloy that can be reduced in size at will, even to microscopic scales.",
+    "abilities": [
+      "Bio-Electricity Generation",
+      "Energy Ball Generation",
+      "Optic Laser",
+      "Size Alteration",
+      "Flight",
+      "Enhanced Reflexes",
+      "Electricity Resistance",
+      "Opponent Adaptability"
+    ],
+    "weaknesses": [
+      "Small Size",
+      "Strong Wind Vulnerability"
+    ]
   },
   {
-    "id": "21385c36-a276-48a5-a512-688a650a747e",
-    "articleName": "Lodestar",
-    "name": "Lodestar"
+    "id": "eb0c6cda-2467-4896-9c2f-8212826af90d",
+    "name": "Lodestar",
+    "species": "Biot-savartian",
+    "homePlanet": "Unknown",
+    "body": "Magnetic Humanoid",
+    "description": "Lodestar has a magnetically floating metal head surrounded by a glowing white aura. He has crab-like claws for hands (similar to Brainstorm's) and his body is made of living alien metal.",
+    "abilities": [
+      "Electro-Magnetokinesis",
+      "Magno-Telekinesis",
+      "Force Field Generation",
+      "Regeneration",
+      "Flight",
+      "Enhanced Strength",
+      "Enhanced Durability"
+    ],
+    "weaknesses": [
+      "Non-Metallic Opponents",
+      "Head Damage Vulnerability",
+      "Water Vulnerability"
+    ]
   },
   {
-    "id": "0a8267b5-1cd4-4130-bc74-32dd5c0231f7",
-    "articleName": "Rath (Classic)",
-    "name": "Rath"
+    "id": "7b4ff965-8ee3-40d4-9e99-47f6e71d2b93",
+    "name": "Rath",
+    "species": "Appoplexian",
+    "homePlanet": "Appoplexia",
+    "body": "Humanoid Tiger",
+    "description": "Rath resembles an orange bipedal tiger with retractable claws that come out of his wrists. His natural strength increases whenever he gets angry.",
+    "abilities": [
+      "Enhanced Strength",
+      "Anger Empowerment",
+      "Wrestling Proficiency",
+      "Shock Wave Generation",
+      "Sharp Teeth/Claws",
+      "Enhanced Durability",
+      "Enhanced Jumping",
+      "Wall Scaling"
+    ],
+    "weaknesses": [
+      "Uncontrollable Anger",
+      "Low Intelligence",
+      "Sensitive Hearing"
+    ]
   },
   {
-    "id": "12f2be03-db57-4633-8f5b-88fb1e0fa71e",
-    "articleName": "Water Hazard",
-    "name": "Water Hazard"
+    "id": "e4c74d16-27b2-4108-927c-bfba87484d8c",
+    "name": "Water Hazard",
+    "species": "Orishan",
+    "homePlanet": "Kiusana",
+    "body": "Humanoid Mollusk",
+    "description": "Water Hazard appears as a red, mollusk-like alien with green eyes, and a mouth that does not move when he speaks. He can manipulate different sources of water, including normal Earth water.",
+    "abilities": [
+      "Hydrokinesis",
+      "Water Blasts",
+      "Moisture Absorption",
+      "Underwater Breathing",
+      "Propulsion (via Water Blasts)",
+      "Nigh-Invulnerable Exoskeleton",
+      "Enhanced Jumping"
+    ],
+    "weaknesses": [
+      "Heat Vulnerability",
+      "Cold Vulnerability"
+    ]
   },
   {
-    "id": "7b35cdb9-40cd-486e-876c-e72d49e85633",
-    "articleName": "Ampfibian (Classic)",
-    "name": "Ampfibian"
+    "id": "09975afa-c754-495e-b818-354e8ab018fe",
+    "name": "Ampfibian",
+    "species": "Amperi",
+    "homePlanet": "Tesslos",
+    "body": "Humanoid Jellyfish",
+    "description": "Ampfibian is a blue jellyfish-like alien with three-segmented skirt-like parts for his head, chest, and abdomen. He can manipulate and produce electricity that is able to stun or paralyze.",
+    "abilities": [
+      "Bio-Electrokinesis",
+      "Energy Absorption",
+      "Flight",
+      "Electrical Intangibility",
+      "Force Field Generation",
+      "Mind Reading",
+      "Underwater Breathing",
+      "Tentacle Elasticity"
+    ],
+    "weaknesses": [
+      "Electricity Absorption Vulnerability",
+      "Neuroshock Blast Vulnerability"
+    ]
   },
   {
-    "id": "83f88f37-1e81-462d-9486-68f4dc3ac82e",
-    "articleName": "Armodrillo",
-    "name": "Armodrillo"
+    "id": "3c5e5836-0c53-4b1b-a5d6-29ed776cd05d",
+    "name": "Armodrillo",
+    "species": "Talpaedan",
+    "homePlanet": "Poiana Lüncas",
+    "body": "Robotic Humanoid Armadillo",
+    "description": "Armodrillo is a yellow ten-foot-tall alien with an armored, robotic-like body. He has jackhammer arms and can transform his hands into drills. Despite his mechanical appearance, all of these aspects are, in fact, biological and natural to his race.",
+    "abilities": [
+      "Jackhammer Arms",
+      "Drill Hands",
+      "Propulsion (via Jackhammer Arms)",
+      "Earthquake Generation",
+      "Enhanced Strength",
+      "Enhanced Durability",
+      "Air Blender"
+    ],
+    "weaknesses": [
+      "Out-of-Control Vibration",
+      "Electricity Vulnerability",
+      "Quill Vulnerability"
+    ]
   },
   {
     "id": "473ee47e-23ff-4c32-b465-3e7985b99d94",

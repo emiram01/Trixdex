@@ -47,8 +47,8 @@ export async function fetchAlienInformation(alien: Alien, cancelTokenSource: Can
             homePlanet: getInfo('|home-planet = ', fixedContent),
             body: getInfo('|body = ', fixedContent),
             description: getInfo('==Appearance==\n', fixedContent),
-            abilities: getInfo('==Powers and Abilities==\n', fixedContent),
-            weaknesses: getInfo('==Weaknesses==\n', fixedContent)
+            abilities: getInfo('==Powers and Abilities==\n', fixedContent).split(','),
+            weaknesses: getInfo('==Weaknesses==\n', fixedContent).split(',')
         });
 
         console.log(JSON.stringify(alienInfo, null, 2));
