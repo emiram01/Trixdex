@@ -108,7 +108,7 @@
     "abilities": [
       "Enhanced Strength",
       "Sonic Clap",
-      "Wrestling Proficiency",
+      "Skilled Combatant",
       "Enhanced Jumping",
       "Enhanced Durability"
     ],
@@ -131,7 +131,7 @@
       "360° Vision",
       "Enhanced Reflexes",
       "Sharp Tail",
-      "Toxic Gas"
+      "Gas Generation"
     ],
     "weaknesses": [
       "Water Vulnerability",
@@ -198,7 +198,7 @@
     ],
     "weaknesses": [
       "Ineffective Body Possession",
-      "Sunlight (Skin Removed)",
+      "Sunlight Vulnerability (Skin Removed)",
       "Electricity Vulnerability"
     ]
   },
@@ -253,7 +253,7 @@
     "abilities": [
       "Slime Spit",
       "Conductive Slime",
-      "Toxic Gas Immunity",
+      "Gas Immunity",
       "Sharp Teeth"
     ],
     "weaknesses": [
@@ -516,7 +516,7 @@
       "Sonic Boom Generation",
       "Enhanced Speed (Air/Underwater)",
       "Underwater Breathing",
-      "Fire/Heat Immunity",
+      "Heat Immunity",
       "Hyperspace Entrance"
     ],
     "weaknesses": [
@@ -704,7 +704,7 @@
     "abilities": [
       "Enhanced Strength",
       "Anger Empowerment",
-      "Wrestling Proficiency",
+      "Skilled Combatant",
       "Shock Wave Generation",
       "Sharp Teeth/Claws",
       "Enhanced Durability",
@@ -723,7 +723,7 @@
     "species": "Orishan",
     "homePlanet": "Kiusana",
     "body": "Humanoid Mollusk",
-    "description": "Water Hazard appears as a red, mollusk-like alien with green eyes, and a mouth that does not move when he speaks. He can manipulate different sources of water, including normal Earth water.",
+    "description": "Water Hazard is a red, mollusk-like alien that can manipulate different sources of water. Through the portholes on his body, he can launch pressurized blasts of water.",
     "abilities": [
       "Hydrokinesis",
       "Water Blasts",
@@ -756,7 +756,7 @@
       "Tentacle Elasticity"
     ],
     "weaknesses": [
-      "Electricity Absorption Vulnerability",
+      "Electricity Absorption",
       "Neuroshock Blast Vulnerability"
     ]
   },
@@ -777,129 +777,492 @@
       "Air Blender"
     ],
     "weaknesses": [
-      "Out-of-Control Vibration",
+      "Uncontrollable Vibration",
       "Electricity Vulnerability",
       "Quill Vulnerability"
     ]
   },
   {
-    "id": "473ee47e-23ff-4c32-b465-3e7985b99d94",
-    "articleName": "Terraspin",
-    "name": "Terraspin"
+    "id": "ea5308ea-bbb5-4b8b-926f-a57a54e9d595",
+    "name": "Terraspin",
+    "species": "Geochelone Aerio",
+    "homePlanet": "Aldabra",
+    "body": "Bipedal Tortoise",
+    "description": "Terraspin is a green, turtle-like alien with large flipper-like arms, and stumpy legs. The tips of his arms also have three holes each, which can extend finger-like claws to use as fingers.",
+    "abilities": [
+      "Aerokinesis",
+      "Tornado Generation",
+      "Wind Blasts",
+      "Sharp Blade Arms",
+      "Flight",
+      "Enhanced Strength",
+      "Enhanced Durability",
+      "Gas Immunity"
+    ],
+    "weaknesses": [
+      "Head Damage Vulnerability",
+      "Slow Ground Speed",
+      "Blindspot"
+    ]
   },
   {
-    "id": "cf93c207-f0f2-435e-bcd8-bafb32223eb2",
-    "articleName": "NRG",
-    "name": "NRG"
+    "id": "18bbe449-253e-40a9-b661-df800fc1dc45",
+    "name": "NRG",
+    "species": "Prypiatosian-B",
+    "homePlanet": "Prypiatos",
+    "body": "Humanoid",
+    "description": "NRG is a humanoid alien, a physical being constantly emitting pure, red, radioactive energy. He wears a heavy, dark green-teal oven-like containment suit, with three slits capable of letting out some of his radioactive energy.",
+    "abilities": [
+      "Radiokinesis",
+      "Nucleokinesis",
+      "Calokinesis",
+      "Flight (Without Armor)",
+      "Enhanced Durability (With Armor)",
+      "Heat Generation",
+      "Heat Immunity",
+      "Cold Immunity"
+    ],
+    "weaknesses": [
+      "Containment Suit Vulnerability",
+      "Electricity Vulnerability",
+      "Fire Suppressants"
+    ]
   },
   {
-    "id": "69c6d6ec-4a77-48ee-8cac-a4d824f06ac3",
-    "articleName": "Fasttrack",
-    "name": "Fasttrack"
+    "id": "2edb940f-adc9-4613-b61c-99eb411b9da5",
+    "name": "Fasttrack",
+    "species": "Citrakayah",
+    "homePlanet": "Chalybeas",
+    "body": "Humanoid Feline",
+    "description": "Fasttrack is a blue feline-like alien with enhanced speed and agility. Despite his enhanced speed, he is still physically slower than Kinecelerans.",
+    "abilities": [
+      "Enhanced Speed",
+      "Enhanced Stamina",
+      "Enhanced Reflexes",
+      "Enhanced Balance",
+      "Enhanced Jumping"
+    ],
+    "weaknesses": [
+      "Slippery Surfaces"
+    ]
   },
   {
-    "id": "3f5b0896-70fc-4adf-bb8c-63a43d8b1c4e",
-    "articleName": "Chamalien",
-    "name": "Chamalien"
+    "id": "b59ca405-3059-433b-b09e-9c21a0d7ef56",
+    "name": "Chamalien",
+    "species": "Merlinisapien",
+    "homePlanet": "Unknown",
+    "body": "Humanoid Salamander",
+    "description": "Chamalien has a slim body that resembles a large purple salamander with darker purple camo-esque spots all over. He is capable of blending in with the color of his surroundings with such effectiveness that he appears invisible",
+    "abilities": [
+      "Camouflage",
+      "Wall Scaling",
+      "Sharp Teeth/Claws",
+      "Stinger",
+      "Enhanced Agility"
+    ],
+    "weaknesses": [
+      "Invisibility Detecting Opponents",
+      "Bright Lights"
+    ]
   },
   {
-    "id": "5e223136-f65f-459c-b1b2-152bfeefa473",
-    "articleName": "Eatle",
-    "name": "Eatle"
+    "id": "cf4bfe3d-e667-42cf-90e5-5109472d7095",
+    "name": "Eatle",
+    "species": "Oryctini",
+    "homePlanet": "Coleop Terra",
+    "body": "Robotic Humanoid",
+    "description": "Eatle is a ten-foot-tall robotic humanoid alien. He has a long horn on the top of his head and the ability to eat just about anything.",
+    "abilities": [
+      "Matter Ingestion",
+      "Laser Beam",
+      "Sharp Teeth/Claws",
+      "Enhanced Durability",
+      "Horn Battering Ram",
+      "Wall Scaling"
+    ],
+    "weaknesses": [
+      "Uncontrollable Hunger",
+      "Ingestion Limit"
+    ]
   },
   {
-    "id": "e72155e0-aa51-41e3-8e0a-d3ffef55a786",
-    "articleName": "Clockwork",
-    "name": "Clockwork"
+    "id": "9f792626-1671-45f5-ac6e-1e0e8bec48df",
+    "name": "Clockwork",
+    "species": "Chronosapien",
+    "homePlanet": "Unknown",
+    "body": "Robotic",
+    "description": "Clockwork is a robot-like alien with skin that is made of golden metal, with a transparent piece of green glass on his chest, revealing the gears inside of him.",
+    "abilities": [
+      "Chronokinesis",
+      "Chronopathy",
+      "Slow Down Time",
+      "Retrocognitive Projections",
+      "Galvanic Mechamorph Merge Enhancement"
+    ],
+    "weaknesses": [
+      "Slow Speed/ Low Stamina",
+      "Electromagnetic Vulnerability",
+      "Head Key Damage Vulnerability"
+    ]
   },
   {
-    "id": "8dfb9987-cdc2-4d9d-b794-e5cc90d8d959",
-    "articleName": "Shocksquatch",
-    "name": "Shocksquatch"
+    "id": "2cf2c3a4-6cb4-4b77-a809-25220eed8040",
+    "name": "Shocksquatch",
+    "species": "Gimlinopithecus",
+    "homePlanet": "Pattersonea",
+    "body": "Yeti",
+    "description": "Shocksquatch has the appearance of a thick, muscular yeti-like alien. He has metallic bolts on his hands and lower jaw capable of releasing strong electrical charges.",
+    "abilities": [
+      "Electrokinesis",
+      "Electromagnetic Telekinesis",
+      "Force Field Generation",
+      "Enhanced Strength",
+      "Enhanced Agility",
+      "Cold Immunity"
+    ],
+    "weaknesses": [
+      "Insulation",
+      "Electricity Absorption"
+    ]
   },
   {
-    "id": "082645f7-6aba-4496-bd51-1780f0f35a74",
-    "articleName": "Juryrigg",
-    "name": "Juryrigg"
+    "id": "24f5c8da-e2b3-4190-be6a-fc69a25ba0b5",
+    "name": "Juryrigg",
+    "species": "Planchaküle",
+    "homePlanet": "Aul-Turrhen",
+    "body": "Gremlin",
+    "description": "Juryrigg is a red gremlin-like alien with a devil-like tail. He is small in stature, only about as big as a human head, and has a strong desire to break and remake machines, making him difficult to control.",
+    "abilities": [
+      "Technological Expertise",
+      "Enhanced Strength",
+      "Wall Scaling",
+      "Sharp Claws"
+    ],
+    "weaknesses": [
+      "Small Size",
+      "Uncontrollable Habit"
+    ]
   },
   {
-    "id": "dbefa37a-68a1-4a29-b178-f0eeb88fe581",
-    "articleName": "Feedback",
-    "name": "Feedback"
+    "id": "842afdb8-c27d-427b-9a70-d1a512b7985c",
+    "name": "Feedback",
+    "species": "Conductoid",
+    "homePlanet": "Teslavorr Nebula",
+    "body": "Humanoid",
+    "description": "Feedback is a humanoid alien with two antennae and a tail with round plugs on their tips. He can absorb and redirect energy attacks, most commonly electricity.",
+    "abilities": [
+      "Electrokinesis",
+      "Electric Waves",
+      "Electricity Charged Impacts",
+      "Energy Absorption/Redirection",
+      "Energy Ball Generation",
+      "Elastic Antannae",
+      "Flight",
+      "Radiolocation"
+    ],
+    "weaknesses": [
+      "Antennae Vulnerability",
+      "Energy Limit",
+      "Uncontrollable Energy Blasts"
+    ]
   },
   {
-    "id": "61b21a0e-2cd1-44b9-b173-c6378c0af96c",
-    "articleName": "Bloxx (Classic)",
-    "name": "Bloxx"
+    "id": "cf9071fc-1a72-44b8-88aa-177e8d9b3a6d",
+    "name": "Bloxx",
+    "species": "Segmentasapien",
+    "homePlanet": "Polyominus",
+    "body": "Blocky Gorilla",
+    "description": "Being an organosillicon-based life form with segmented hardened quasi-organic polymer skin, Bloxx's body is made up of individual red, blue, and yellow building blocks that he can rearrange at will.",
+    "abilities": [
+      "Shapeshifting",
+      "Body/Size Alteration",
+      "Enhanced Durability",
+      "Regeneration",
+      "Bloxx Projection",
+      "Sphere Transformation",
+      "Enhanced Speed (Sphere Form)"
+    ],
+    "weaknesses": [
+      "Intangible Opponents",
+      "Acid Vulnerability",
+      "Durability Limit"
+    ]
   },
   {
-    "id": "166337b9-e550-4ee4-8ee0-44cb44df76a6",
-    "articleName": "Gravattack",
-    "name": "Gravattack"
+    "id": "ceeb5988-1f31-47bf-b68c-eb02c86ea243",
+    "name": "Gravattack",
+    "species": "Galilean",
+    "homePlanet": "Keplorr",
+    "body": "Planetary Humanoid",
+    "description": "Being a silicon-based lifeform, Gravattack is literally a living planet. He is a large, bulky, reddish-brown alien with rocky skin and a molten lava planet core at the center of his body.",
+    "abilities": [
+      "Gravikinesis",
+      "Orbitakinesis",
+      "Telekinesis",
+      "Black Hole Generation",
+      "Force Field Generation",
+      "Planetoid Form",
+      "Flight"
+    ],
+    "weaknesses": [
+      "Large Size",
+      "Core Damage Vulnerability",
+      "Uncontrollable Black Hole Generation"
+    ]
   },
   {
-    "id": "2de6cc1a-146d-4259-98d2-4542d8b46d36",
-    "articleName": "Crashhopper",
-    "name": "Crashhopper"
+    "id": "8c7a57c0-1c17-4afe-82a1-45d75221a0a3",
+    "name": "Crashhopper",
+    "species": "Orthopterran",
+    "homePlanet": "Unknown",
+    "body": "Humanoid Grasshopper",
+    "description": "Crashhopper greatly resembles a mix between a grasshopper and a praying mantis with significantly large three-jointed hind limbs. He has relatively long and muscular legs which enable him to jump extremely long distances.",
+    "abilities": [
+      "Enhanced Jumping",
+      "Opponent Bouncing",
+      "Enhanced Durability",
+      "Invulnerable Head",
+      "Enhanced Strength",
+      "Enhanced Agility",
+      "Shock Wave Generation",
+      "Wall Scaling"
+    ],
+    "weaknesses": [
+      "Durability Limit",
+      "Jumping Limit"
+    ]
   },
   {
-    "id": "4f502777-79a0-4d8e-b487-dd2a82e7ab43",
-    "articleName": "Ball Weevil",
-    "name": "Ball Weevil"
+    "id": "cae64849-9939-4653-9926-7fc7d4325085",
+    "name": "Ball Weevil",
+    "species": "Unknown",
+    "homePlanet": "Atrocius 0",
+    "body": "Insectoid",
+    "description": "Ball Weevil is a small, yellow insect-like alien that can spit explosive, matter-absorbing sticky balls of plasma.",
+    "abilities": [
+      "Explosive Plasma Generation",
+      "Plasma Constructs",
+      "Enhanced Agility",
+      "Enhanced Balance",
+      "Wall Scaling",
+      "Matter Absorption (via Plasma)",
+      "Energy Absorption (via Plasma)"
+    ],
+    "weaknesses": [
+      "Small Size",
+      "Plasma Neutralization"
+    ]
   },
   {
-    "id": "22bada40-2190-4edf-a526-7dd53cf46f21",
-    "articleName": "Walkatrout",
-    "name": "Walkatrout"
+    "id": "b90d50f2-d138-43b2-96d4-5e5581b68fc2",
+    "name": "Walkatrout",
+    "species": "Ickthyperambuloid",
+    "homePlanet": "Gilli-Perambulous Promenade",
+    "body": "Fish",
+    "description": "Walkatrout is a small, blue fish-like alien with a shark-like dorsal fin, and a pair of thin, spindly legs jutting from his underside. He has a slippery body, making him hard to grab.",
+    "abilities": [
+      "Slippery Body",
+      "Enhanced Acrobatics",
+      "Underwater Breathing"
+    ],
+    "weaknesses": [
+      "Small Size",
+      "Weak Strength",
+      "Slow Speed"
+    ]
   },
   {
-    "id": "4118f6ae-fa80-4126-99b0-26e4c91656d6",
-    "articleName": "Pesky Dust",
-    "name": "Pesky Dust"
+    "id": "d39f675e-8f05-49f7-998d-eec16570c1ad",
+    "name": "Pesky Dust",
+    "species": "Nemuina",
+    "homePlanet": "Nemunimos IV",
+    "body": "Fairy",
+    "description": "Pesky Dust is a short, fairy-like alien with blue skin. He has purple fairy-like wings making him capable of flight.",
+    "abilities": [
+      "Oneirokinesis",
+      "Dream Manipulation",
+      "Sleep Inducement",
+      "Dream Viewing",
+      "Flight"
+    ],
+    "weaknesses": [
+      "Small Size",
+      "Non-Living Opponents"
+    ]
   },
   {
-    "id": "fd1b6433-3a26-45e3-b257-f47a7e80b3ed",
-    "articleName": "Mole-Stache",
-    "name": "Mole-Stache"
+    "id": "e78506e8-b804-4b61-b6ad-6fff21474873",
+    "name": "Mole-Stache",
+    "species": "Unknown",
+    "homePlanet": "Unknown",
+    "body": "Rodentoid",
+    "description": "Mole-Stache is a rodentoid alien with a big blonde mustache and beaver-like teeth. His mustache is free-forming and able stretch itself into a variety of shapes",
+    "abilities": [
+      "Comakinesis",
+      "Malleable Mustache",
+      "Mustache Regeneration",
+      "Skilled Combatant",
+      "Flight",
+      "Enhanced Strength"
+    ],
+    "weaknesses": [
+      "Small Size"
+    ]
   },
   {
-    "id": "7794255c-77e3-4d60-893c-a57cc4bb0f3d",
-    "articleName": "The Worst",
-    "name": "The Worst"
+    "id": "1cfbafb3-337b-4100-b2ec-a260623ee6b4",
+    "name": "The Worst",
+    "species": "Atrocian",
+    "homePlanet": "Atrocius 0",
+    "body": "Blob-like",
+    "description": "The Worst is a yellow, fat, round blob-like alien. He has elephant-like feet and bear-like hands. He also has wart-like bumps on his forehead and both arms.",
+    "abilities": [
+      "Indestructibility",
+      "Enhanced Durability",
+      "Heat Resistance"
+    ],
+    "weaknesses": [
+      "Lack of Combat"
+    ]
   },
   {
-    "id": "57d1f613-b8ca-4475-ba1e-9d365962e1d4",
-    "articleName": "Kickin Hawk",
-    "name": "Kickin Hawk"
+    "id": "2a3e46f3-e4ef-49ac-90ed-be8318e2364b",
+    "name": "Kickin Hawk",
+    "species": "Unknown",
+    "homePlanet": "Unknown",
+    "body": "Humanoid Chickenhawk",
+    "description": "Kickin Hawk resembles a combination of a rooster and a hawk. He is said to be one of the best close-range fighters, fighting almost exclusively with his legs.",
+    "abilities": [
+      "Skilled Combatant",
+      "Enhanced Strength",
+      "Enhanced Agility",
+      "Enhanced Reflexes",
+      "Enhanced Jumping",
+      "Enhanced Speed",
+      "Sharp Claws"
+    ],
+    "weaknesses": [
+      "Electricity Vulnerability"
+    ]
   },
   {
-    "id": "2645dd83-a836-4fb6-8787-a105fd61ec0f",
-    "articleName": "Toepick",
-    "name": "Toepick"
+    "id": "888b54dc-f2ad-43cc-9ed2-64be9edefc8e",
+    "name": "Toepick",
+    "species": "Unknown",
+    "homePlanet": "Unknown",
+    "body": "Ogre",
+    "description": "Toepick is an ogre-like alien with a metal cage helmet on his head. Inside his helmet is his terrifying face, which taps into the primordial fears locked within the viewer's subconscious, inducing a sense of fear and disgust.",
+    "abilities": [
+      "Nightmarish Face",
+      "Nightmarish Sounds",
+      "Sharp Claws",
+      "Gas Generation"
+    ],
+    "weaknesses": [
+      "Below Average Reflexes",
+      "Mechanical Opponents",
+      "Blind/Deaf Opponents"
+    ]
   },
   {
-    "id": "35702df9-5832-4da9-a94a-23aaf2ecb3bd",
-    "articleName": "Astrodactyl",
-    "name": "Astrodactyl"
+    "id": "2781c8e2-3dff-4989-b7e0-891252ae260f",
+    "name": "Astrodactyl",
+    "species": "Unknown",
+    "homePlanet": "Terradino",
+    "body": "Humanoid Pterosaur",
+    "description": "Astrodactyl resembles a cross between a Pterodactyl and a glider. He has retractable wings that are connected to a jetpack-like structure on his back.",
+    "abilities": [
+      "Energy Breath",
+      "Energy Constructs",
+      "Star Blasts",
+      "Flight (via Jetpack)",
+      "Gas Immunity"
+    ],
+    "weaknesses": [
+      "Electricity Vulnerability"
+    ]
   },
   {
-    "id": "8fa7693a-9521-4763-9468-cd2f589b5aba",
-    "articleName": "Bullfrag",
-    "name": "Bullfrag"
+    "id": "bfd5de70-4846-4366-ad51-8885571c7dd2",
+    "name": "Bullfrag",
+    "species": "Incursean",
+    "homePlanet": "Unknown (Destroyed)",
+    "body": "Humanoid Frog",
+    "description": "Bullfrag is a humanoid frog-like alien with powerful jumping abilities and a long prehensile tongue, much like normal frogs.",
+    "abilities": [
+      "Long Prehensile Tongue",
+      "Strong Tongue",
+      "Chest Inflation",
+      "Enhanced Jumping",
+      "Enhanced Smelling",
+      "Underwater Breathing (Limited)"
+    ],
+    "weaknesses": [
+      "Sensitive Smelling",
+      "Overstretched Tongue"
+    ]
   },
   {
-    "id": "f6ff047e-d8ef-4ff3-856a-133bbd5a21b7",
-    "articleName": "Atomix",
-    "name": "Atomix"
+    "id": "d63a405b-03b6-4e07-9c37-b054bac072a2",
+    "name": "Atomix",
+    "species": "Unknown",
+    "homePlanet": "Unknown",
+    "body": "Robotic Humanoid",
+    "description": "Atomix has a humanoid robotic appearance. His body is full of energy, giving him the ability to create and manipulate atomic or nuclear energy. Fundamentally, he is a walking nuclear reactor.",
+    "abilities": [
+      "Nucleokinesis",
+      "Chemokinesis",
+      "Radiokinesis",
+      "Atomic Manipulation",
+      "Flight",
+      "Enhanced Strength",
+      "Enhanced Durability"
+    ],
+    "weaknesses": [
+      "Stamina Limit"
+    ]
   },
   {
-    "id": "828bfd7d-18e4-455c-9ba1-b3c968e0108f",
-    "articleName": "Gutrot",
-    "name": "Gutrot"
+    "id": "6e21b56f-20dd-4218-9fe1-9bd20fd1f3dc",
+    "name": "Gutrot",
+    "species": "Unknown",
+    "homePlanet": "Unknown",
+    "body": "Humanoid",
+    "description": "Gutrot has the appearance of a mechanical humanoid. His stomach is full of various gases that, through the nozzles located all over his body, can be ejected.",
+    "abilities": [
+      "Chemokinesis",
+      "Chemical Expertise",
+      "Gas Generation",
+      "Gas Absorption",
+      "Gas Immunity",
+      "Sleep Dust Immunity"
+    ],
+    "weaknesses": [
+      "Below Average Reflexes",
+      "Gas-Resistant Opponents"
+    ]
   },
   {
-    "id": "668b3d5e-8fa3-43bb-bc5d-4e6301b93bb2",
-    "articleName": "Whampire",
-    "name": "Whampire"
+    "id": "67f6eba2-d949-4671-92b1-828b193c25a4",
+    "name": "Whampire",
+    "species": "Vladat",
+    "homePlanet": "Anur Vladias",
+    "body": "Humanoid Vampire",
+    "description": "Whampire is a vampire-like alien with pale skin and sharp yellow teeth. He has flaps under his arms, similar to the wings of a bat, that enable him to fly though the air at high speeds.",
+    "abilities": [
+      "Hypnosis",
+      "Possession (via Corrupturas)",
+      "Sonic Explosions",
+      "Bat Transformation",
+      "Flight",
+      "Night/Infrared Vision",
+      "Energy Absorption",
+      "Sharp Teeth/Claws"
+    ],
+    "weaknesses": [
+      "Sunlight Vulnerability",
+      "Heat Vulnerability",
+      "Hypnosis-Resistant Opponents"
+    ]
   }
 ]

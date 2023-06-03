@@ -1,31 +1,15 @@
 import { useEffect, useState } from 'react';
-import { fetchAliens } from '../utils/ContentParser';
 import { Alien } from '../utils/Interfaces';
+import aliens from '../utils/aliens.json';
 import AlienCard from './AlienCard';
-import axios from 'axios';
 
 export default function AlienList() {
   const [alienList, setAlienList] = useState<Alien[]>([]);
   const [selectedAlien, setSelectedAlien] = useState<Alien | null>(null);
 
   useEffect(() => {  
-    let cancelTokenSource = axios.CancelToken.source();
-    const fetchData = async () => {
-      try {
-        const fetchedAliens = await fetchAliens(cancelTokenSource);
-        setAlienList(fetchedAliens);
-      } catch (error) {
-        if (axios.isCancel(error))
-          console.log('request canceled');
-        else
-          throw error;
-      }
-    };
-
-    fetchData();
-    return () => {
-      cancelTokenSource.cancel();
-    };
+    setAlienList(aliens);
+    console.log(aliens);
   }, []);
 
   const handleClick = (alien: Alien) => {

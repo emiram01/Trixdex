@@ -1,33 +1,16 @@
 import { useEffect, useState } from 'react';
-import { fetchAlienInformation } from '../utils/ContentParser';
-import { Alien, AlienInformation } from '../utils/Interfaces';
-import axios from 'axios';
+import { Alien } from '../utils/Interfaces';
 
 interface Props {
   alien: Alien
 }
 
 export default function AlienCard(props: Props) {
-  const [alienInfo, setAlienInfo] = useState<AlienInformation | null>(null);
+  const [alienInfo, setAlienInfo] = useState<Alien | null>(null);
 
   useEffect(() => {  
-    let cancelTokenSource = axios.CancelToken.source();
-    const fetchData = async () => {
-      try {
-        const alienInformation = await fetchAlienInformation(props.alien, cancelTokenSource);
-        setAlienInfo(alienInformation[0]);
-      } catch (error) {
-        if (axios.isCancel(error))
-          console.log('request canceled');
-        else
-          throw error;
-      }
-    };
-
-    fetchData();
-    return () => {
-      cancelTokenSource.cancel();
-    };
+    setAlienInfo(props.alien);
+    console.log(props.alien);
   }, [props.alien]);
 
   return (
