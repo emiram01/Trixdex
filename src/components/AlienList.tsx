@@ -1,41 +1,33 @@
-import { useEffect, useState, useContext } from 'react';
-import { useNavigate } from 'react-router-dom';
+import { useEffect, useState, useMemo } from 'react';
 import { Alien } from '../utils/Interfaces';
 import aliens from '../assets/aliens.json';
-import testImg from '../assets/images/HeatblastFull.png';
 import SearchBar from './SearchBar';
 import gif from '../assets/omnitrixanim.gif';
+import AlienListItem from './AlienListItem';
 
 export default function AlienList() {
   const [alienList, setAlienList] = useState<Alien[]>([]);
-  const navigate = useNavigate();
+  const [query, setQuery] = useState<string>('');
 
   useEffect(() => {  
     setAlienList(aliens);
   }, []);
 
-  const handleClick = (alien: Alien) => {
-    navigate(alien.name.replace(' ', '-'));
-  };
+  const filteredAlienList = useMemo(() => {
+    return alienList.filter((alien) =>
+      alien.name.toLowerCase().includes(query.toLowerCase())
+    );
+  }, [alienList, query]);
 
   return (
     <>
       <div className='flex justify-center bg-gray-900 border-t-2 border-black'>
-        <img src={gif} className='mix-blend-color-dodge max-h-screen opacity-100'></img>
+        <img src={gif} className='mix-blend-color-dodge max-h-screen opacity-20'></img>
       </div>
-      <SearchBar />
+      <SearchBar query={query} setQuery={setQuery} />
       <div className='container mx-auto p-4'>
         <div className='grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-4 pb-4'>
-          {alienList.map((alien) => {
-            return (
-              <div key={alien.id}>
-                <button onClick={() => handleClick(alien)} className='font-semibold bg-[#64cc4f] hover:bg-green-600 text-white px-4 py-2 rounded-lg h-20 flex items-center w-full'>
-                  <img src={testImg} alt={alien.name} className='mix-blend-multiply h-full mr-2'/>
-                  {alien.name}
-                </button>
-              </div>
-            );
-          })}
+          <AlienListItem filteredAlienList={filteredAlienList}/>
         </div>
       </div>
     </>
