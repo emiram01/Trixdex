@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { Alien } from '../utils/Interfaces';
-import testImage from '../assets/images/HeatblastFull.png';
+import testImage from '../assets/images/Heatblast.png';
 import aliens from '../assets/aliens.json';
 import ErrorPage from './ErrorPage';
 
