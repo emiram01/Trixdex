@@ -1,44 +1,44 @@
 [
   {
-      "id": "7dd4d506-57ba-4b36-b60e-acab5759019c",
-      "name": "Heatblast",
-      "species": "Pyronite",
-      "homePlanet": "Pyros",
-      "body": "Fiery Humanoid",
-      "description": "Heatblast is a plasma-based life-form whose body is composed of a super hot inner plasma covered by volcanic rocks. As a fire-based entity, his body radiates high amounts of heat.",
-      "abilities": [
-        "Pyrokinesis",
-        "Fire/Heat Absorption",
-        "Pyrokinetic Constructs",
-        "Fire Transportation",
-        "Flight",
-        "Limited Terrakinesis"
-      ],
-      "weaknesses": [
-        "Fire Suppressants",
-        "Fire-Resistant Opponents",
-        "Reignition Limit"
-      ]
+    "id": "7dd4d506-57ba-4b36-b60e-acab5759019c",
+    "name": "Heatblast",
+    "species": "Pyronite",
+    "homePlanet": "Pyros",
+    "body": "Fiery Humanoid",
+    "description": "Heatblast is a plasma-based life-form whose body is composed of a super hot inner plasma covered by volcanic rocks. As a fire-based entity, his body radiates high amounts of heat.",
+    "abilities": [
+      "Pyrokinesis",
+      "Fire/Heat Absorption",
+      "Pyrokinetic Constructs",
+      "Fire Transportation",
+      "Flight",
+      "Limited Terrakinesis"
+    ],
+    "weaknesses": [
+      "Fire Suppressants",
+      "Fire-Resistant Opponents",
+      "Reignition Limit"
+    ]
   },
   {
-      "id": "aeb87d11-36a3-47d5-a618-075915ece8bb",
-      "name": "Wildmutt",
-      "species": "Vulpimancer",
-      "homePlanet": "Vulpin",
-      "body": "Animalistic",
-      "description": "Wildmutt is a large orange dog-like creature with no eyes, ears, or nose. The various spines found all across his body function similarly to whiskers with tactile sensing. He uses his sense of smell and hearing to navigate.",
-      "abilities": [
-        "Enhanced Senses",
-        "Invisibility Detection",
-        "Sharp Teeth/Claws",
-        "Quill Projection",
-        "Wall Scaling",
-        "Enhanced Strength"
-      ],
-      "weaknesses": [
-        "Sensitive Hearing",
-        "Lack of Speech"
-      ]
+    "id": "aeb87d11-36a3-47d5-a618-075915ece8bb",
+    "name": "Wildmutt",
+    "species": "Vulpimancer",
+    "homePlanet": "Vulpin",
+    "body": "Animalistic",
+    "description": "Wildmutt is a large orange dog-like creature with no eyes, ears, or nose. The various spines found all across his body function similarly to whiskers with tactile sensing. He uses his sense of smell and hearing to navigate.",
+    "abilities": [
+      "Enhanced Senses",
+      "Invisibility Detection",
+      "Sharp Teeth/Claws",
+      "Quill Projection",
+      "Wall Scaling",
+      "Enhanced Strength"
+    ],
+    "weaknesses": [
+      "Sensitive Hearing",
+      "Lack of Speech"
+    ]
   },
   {
     "id": "d7dc9e44-ff86-4355-8f17-64059256890d",
