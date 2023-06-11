@@ -1,8 +1,8 @@
 import { useEffect, useState, useMemo } from 'react';
 import { Alien } from '../utils/Interfaces';
-import aliens from '../assets/aliens.json';
+import aliens from '../assets/data/aliens.json';
 import SearchBar from './SearchBar';
-import gif from '../assets/omnitrixanim.gif';
+import gif from '../assets/images/omnitrixanim.gif';
 import AlienListItem from './AlienListItem';
 
 export default function AlienList() {

@@ -7,5 +7,5 @@ export interface Alien {
     description: string;
     abilities: string[];
     weaknesses: string[];
-    // image: string;
+    images: string[];
 }
