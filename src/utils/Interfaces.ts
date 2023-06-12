@@ -8,4 +8,5 @@ export interface Alien {
     abilities: string[];
     weaknesses: string[];
     images: string[];
+    series: string;
 }

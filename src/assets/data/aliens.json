@@ -22,7 +22,8 @@
     "images": [
       "src/assets/images/aliens/Heatblast.png",
       "src/assets/images/aliens/HeatblastButton.png"
-    ] 
+    ],
+    "series": "OS"
   },
   {
     "id": "aeb87d11-36a3-47d5-a618-075915ece8bb",
@@ -46,7 +47,8 @@
     "images": [
       "src/assets/images/aliens/Wildmutt.png",
       "src/assets/images/aliens/WildmuttButton.png"
-    ] 
+    ],
+    "series": "OS"
   },
   {
     "id": "d7dc9e44-ff86-4355-8f17-64059256890d",
@@ -70,7 +72,8 @@
     "images": [
       "src/assets/images/aliens/Diamondhead.png",
       "src/assets/images/aliens/DiamondheadButton.png"
-    ] 
+    ],
+    "series": "OS" 
   },
   {
     "id": "38d7e88c-a36a-426d-a5d2-ca6a2dc67c55",
@@ -94,7 +97,8 @@
     "images": [
       "src/assets/images/aliens/XLR8.png",
       "src/assets/images/aliens/XLR8Button.png"
-    ] 
+    ],
+    "series": "OS" 
   },
   {
     "id": "b718cd07-7172-4890-a9ca-eab955abafd7",
@@ -116,7 +120,8 @@
     "images": [
       "src/assets/images/aliens/GreyMatter.png",
       "src/assets/images/aliens/GreyMatterButton.png"
-    ] 
+    ],
+    "series": "OS" 
   },
   {
     "id": "725c89f5-f3aa-48ab-9c40-8c991833b211",
@@ -140,7 +145,8 @@
     "images": [
       "src/assets/images/aliens/FourArms.png",
       "src/assets/images/aliens/FourArmsButton.png"
-    ] 
+    ],
+    "series": "OS" 
   },
   {
     "id": "bbc2f0f4-7e19-4016-9489-a5c64f7db2f5",
@@ -165,7 +171,8 @@
     "images": [
       "src/assets/images/aliens/Stinkfly.png",
       "src/assets/images/aliens/StinkflyButton.png"
-    ] 
+    ],
+    "series": "OS" 
   },
   {
     "id": "7fab0c51-6033-488b-b00e-49336bf662df",
@@ -190,7 +197,8 @@
     "images": [
       "src/assets/images/aliens/Ripjaws.png",
       "src/assets/images/aliens/RipjawsButton.png"
-    ] 
+    ],
+    "series": "OS" 
   },
   {
     "id": "97b7914f-74de-4a70-a116-4091fac8600d",
@@ -215,7 +223,8 @@
     "images": [
       "src/assets/images/aliens/Upgrade.png",
       "src/assets/images/aliens/UpgradeButton.png"
-    ] 
+    ],
+    "series": "OS" 
   },
   {
     "id": "9cde3ede-f718-4916-9067-163d86db2ac3",
@@ -240,7 +249,8 @@
     "images": [
       "src/assets/images/aliens/Ghostfreak.png",
       "src/assets/images/aliens/GhostfreakButton.png"
-    ] 
+    ],
+    "series": "OS" 
   },
   {
     "id": "5215828a-2ed7-4eae-9921-46b5e2e3e0ad",
@@ -264,7 +274,8 @@
     "images": [
       "src/assets/images/aliens/Cannonbolt.png",
       "src/assets/images/aliens/CannonboltButton.png"
-    ] 
+    ],
+    "series": "OS" 
   },
   {
     "id": "f4861e11-74d4-421b-b4eb-39e7237a5cdf",
@@ -289,7 +300,8 @@
     "images": [
       "src/assets/images/aliens/Wildvine.png",
       "src/assets/images/aliens/WildvineButton.png"
-    ] 
+    ],
+    "series": "OS" 
   },
   {
     "id": "c37fc161-399d-421a-ba50-170205900772",
@@ -310,7 +322,8 @@
     "images": [
       "src/assets/images/aliens/Spitter.png",
       "src/assets/images/aliens/SpitterButton.png"
-    ] 
+    ],
+    "series": "OS" 
   },
   {
     "id": "caa8cf9e-e0e6-4d30-89f3-689d1e0f0969",
@@ -335,7 +348,8 @@
     "images": [
       "src/assets/images/aliens/Buzzshock.png",
       "src/assets/images/aliens/BuzzshockButton.png"
-    ] 
+    ],
+    "series": "OS" 
   },
   {
     "id": "9a998530-b171-46f1-9a13-486b63d805ca",
@@ -358,7 +372,8 @@
     "images": [
       "src/assets/images/aliens/Arctiguana.png",
       "src/assets/images/aliens/ArctiguanaButton.png"
-    ] 
+    ],
+    "series": "OS" 
   },
   {
     "id": "81c583e2-3711-46dc-9fbd-f4855c63042b",
@@ -381,7 +396,8 @@
     "images": [
       "src/assets/images/aliens/Blitzwolfer.png",
       "src/assets/images/aliens/BlitzwolferButton.png"
-    ] 
+    ],
+    "series": "OS" 
   },
   {
     "id": "bc68200d-78e6-44a8-ae10-b5e6d46e2bbb",
@@ -405,7 +421,8 @@
     "images": [
       "src/assets/images/aliens/SnareOh.png",
       "src/assets/images/aliens/SnareOhButton.png"
-    ] 
+    ],
+    "series": "OS" 
   },
   {
     "id": "5f5b8335-91ea-43ab-9536-4cad732ed3ef",
@@ -428,7 +445,8 @@
     "images": [
       "src/assets/images/aliens/Frankenstrike.png",
       "src/assets/images/aliens/FrankenstrikeButton.png"
-    ] 
+    ],
+    "series": "OS" 
   },
   {
     "id": "0ee03aa1-53a6-4889-a186-0f8813cb3d37",
@@ -451,7 +469,8 @@
     "images": [
       "src/assets/images/aliens/Upchuck.png",
       "src/assets/images/aliens/UpchuckButton.png"
-    ] 
+    ],
+    "series": "OS" 
   },
   {
     "id": "e1ff1e40-6638-422d-af5d-9652f1808bd8",
@@ -474,7 +493,8 @@
     "images": [
       "src/assets/images/aliens/Ditto.png",
       "src/assets/images/aliens/DittoButton.png"
-    ] 
+    ],
+    "series": "OS" 
   },
   {
     "id": "e6dc6b11-ea98-4f51-ad37-7af0f081e655",
@@ -500,7 +520,8 @@
     "images": [
       "src/assets/images/aliens/EyeGuy.png",
       "src/assets/images/aliens/EyeGuyButton.png"
-    ] 
+    ],
+    "series": "OS" 
   },
   {
     "id": "fb915161-e833-403b-8a87-36181374e422",
@@ -525,7 +546,8 @@
     "images": [
       "src/assets/images/aliens/WayBig.png",
       "src/assets/images/aliens/WayBigButton.png"
-    ] 
+    ],
+    "series": "OS" 
   },
   {
     "id": "d054a122-f17a-40f5-bade-0edc948e37fe",
@@ -551,7 +573,8 @@
     "images": [
       "src/assets/images/aliens/Swampfire.png",
       "src/assets/images/aliens/SwampfireButton.png"
-    ] 
+    ],
+    "series": "AF" 
   },
   {
     "id": "17566339-47ef-422e-a37d-dfb7dd118c25",
@@ -576,7 +599,8 @@
     "images": [
       "src/assets/images/aliens/EchoEcho.png",
       "src/assets/images/aliens/EchoEchoButton.png"
-    ] 
+    ],
+    "series": "AF" 
   },
   {
     "id": "a7d1a7ad-84ac-4db8-a3d6-18549b4cfb48",
@@ -601,7 +625,8 @@
     "images": [
       "src/assets/images/aliens/Humungosaur.png",
       "src/assets/images/aliens/HumungosaurButton.png"
-    ] 
+    ],
+    "series": "AF" 
   },
   {
     "id": "b5339e91-7e40-45ed-a761-baa874e43e97",
@@ -626,7 +651,8 @@
     "images": [
       "src/assets/images/aliens/Jetray.png",
       "src/assets/images/aliens/JetrayButton.png"
-    ] 
+    ],
+    "series": "AF" 
   },
   {
     "id": "71d5b9a5-fca6-4ac8-824a-572cfac1c160",
@@ -653,7 +679,8 @@
     "images": [
       "src/assets/images/aliens/BigChill.png",
       "src/assets/images/aliens/BigChillButton.png"
-    ] 
+    ],
+    "series": "AF" 
   },
   {
     "id": "7e84c567-2627-47f9-a556-dde30cf48a9c",
@@ -677,7 +704,8 @@
     "images": [
       "src/assets/images/aliens/Chromastone.png",
       "src/assets/images/aliens/ChromastoneButton.png"
-    ] 
+    ],
+    "series": "AF" 
   },
   {
     "id": "5bf8c3ac-ed60-43d9-8ce0-5915d153a210",
@@ -702,7 +730,8 @@
     "images": [
       "src/assets/images/aliens/Brainstorm.png",
       "src/assets/images/aliens/BrainstormButton.png"
-    ] 
+    ],
+    "series": "AF" 
   },
   {
     "id": "f870acbf-9604-4158-8d8e-71e32e85578e",
@@ -725,7 +754,8 @@
     "images": [
       "src/assets/images/aliens/Spidermonkey.png",
       "src/assets/images/aliens/SpidermonkeyButton.png"
-    ] 
+    ],
+    "series": "AF" 
   },
   {
     "id": "a95e82bc-bd1a-483d-990a-9a64e74ffdba",
@@ -750,7 +780,8 @@
     "images": [
       "src/assets/images/aliens/Goop.png",
       "src/assets/images/aliens/GoopButton.png"
-    ] 
+    ],
+    "series": "AF" 
   },
   {
     "id": "8446cc29-275c-4778-b849-ada6a7e379ef",
@@ -776,7 +807,8 @@
     "images": [
       "src/assets/images/aliens/AlienX.png",
       "src/assets/images/aliens/AlienXButton.png"
-    ] 
+    ],
+    "series": "AF" 
   },
   {
     "id": "b8453c17-28a2-46ca-a1e7-f5a2903b7a49",
@@ -802,7 +834,8 @@
     "images": [
       "src/assets/images/aliens/Nanomech.png",
       "src/assets/images/aliens/NanomechButton.png"
-    ] 
+    ],
+    "series": "AF" 
   },
   {
     "id": "eb0c6cda-2467-4896-9c2f-8212826af90d",
@@ -828,7 +861,8 @@
     "images": [
       "src/assets/images/aliens/Lodestar.png",
       "src/assets/images/aliens/LodestarButton.png"
-    ] 
+    ],
+    "series": "AF" 
   },
   {
     "id": "7b4ff965-8ee3-40d4-9e99-47f6e71d2b93",
@@ -855,7 +889,8 @@
     "images": [
       "src/assets/images/aliens/Rath.png",
       "src/assets/images/aliens/RathButton.png"
-    ] 
+    ],
+    "series": "AF" 
   },
   {
     "id": "e4c74d16-27b2-4108-927c-bfba87484d8c",
@@ -880,7 +915,8 @@
     "images": [
       "src/assets/images/aliens/WaterHazard.png",
       "src/assets/images/aliens/WaterHazardButton.png"
-    ] 
+    ],
+    "series": "UA" 
   },
   {
     "id": "09975afa-c754-495e-b818-354e8ab018fe",
@@ -906,7 +942,8 @@
     "images": [
       "src/assets/images/aliens/Ampfibian.png",
       "src/assets/images/aliens/AmpfibianButton.png"
-    ] 
+    ],
+    "series": "UA" 
   },
   {
     "id": "3c5e5836-0c53-4b1b-a5d6-29ed776cd05d",
@@ -932,7 +969,8 @@
     "images": [
       "src/assets/images/aliens/Armodrillo.png",
       "src/assets/images/aliens/ArmodrilloButton.png"
-    ] 
+    ],
+    "series": "UA" 
   },
   {
     "id": "ea5308ea-bbb5-4b8b-926f-a57a54e9d595",
@@ -959,7 +997,8 @@
     "images": [
       "src/assets/images/aliens/Terraspin.png",
       "src/assets/images/aliens/TerraspinButton.png"
-    ] 
+    ],
+    "series": "UA" 
   },
   {
     "id": "18bbe449-253e-40a9-b661-df800fc1dc45",
@@ -986,7 +1025,8 @@
     "images": [
       "src/assets/images/aliens/NRG.png",
       "src/assets/images/aliens/NRGButton.png"
-    ] 
+    ],
+    "series": "UA" 
   },
   {
     "id": "2edb940f-adc9-4613-b61c-99eb411b9da5",
@@ -1008,7 +1048,8 @@
     "images": [
       "src/assets/images/aliens/Fasttrack.png",
       "src/assets/images/aliens/FasttrackButton.png"
-    ] 
+    ],
+    "series": "UA" 
   },
   {
     "id": "b59ca405-3059-433b-b09e-9c21a0d7ef56",
@@ -1031,7 +1072,8 @@
     "images": [
       "src/assets/images/aliens/Chamalien.png",
       "src/assets/images/aliens/ChamalienButton.png"
-    ] 
+    ],
+    "series": "UA" 
   },
   {
     "id": "cf4bfe3d-e667-42cf-90e5-5109472d7095",
@@ -1055,7 +1097,8 @@
     "images": [
       "src/assets/images/aliens/Eatle.png",
       "src/assets/images/aliens/EatleButton.png"
-    ] 
+    ],
+    "series": "UA" 
   },
   {
     "id": "9f792626-1671-45f5-ac6e-1e0e8bec48df",
@@ -1079,7 +1122,8 @@
     "images": [
       "src/assets/images/aliens/Clockwork.png",
       "src/assets/images/aliens/ClockworkButton.png"
-    ] 
+    ],
+    "series": "UA" 
   },
   {
     "id": "2cf2c3a4-6cb4-4b77-a809-25220eed8040",
@@ -1103,7 +1147,8 @@
     "images": [
       "src/assets/images/aliens/Shocksquatch.png",
       "src/assets/images/aliens/ShocksquatchButton.png"
-    ] 
+    ],
+    "series": "UA" 
   },
   {
     "id": "24f5c8da-e2b3-4190-be6a-fc69a25ba0b5",
@@ -1125,7 +1170,8 @@
     "images": [
       "src/assets/images/aliens/Juryrigg.png",
       "src/assets/images/aliens/JuryriggButton.png"
-    ] 
+    ],
+    "series": "UA" 
   },
   {
     "id": "842afdb8-c27d-427b-9a70-d1a512b7985c",
@@ -1152,7 +1198,8 @@
     "images": [
       "src/assets/images/aliens/Feedback.png",
       "src/assets/images/aliens/FeedbackButton.png"
-    ] 
+    ],
+    "series": "OV" 
   },
   {
     "id": "cf9071fc-1a72-44b8-88aa-177e8d9b3a6d",
@@ -1178,7 +1225,8 @@
     "images": [
       "src/assets/images/aliens/Bloxx.png",
       "src/assets/images/aliens/BloxxButton.png"
-    ] 
+    ],
+    "series": "OV" 
   },
   {
     "id": "ceeb5988-1f31-47bf-b68c-eb02c86ea243",
@@ -1204,7 +1252,8 @@
     "images": [
       "src/assets/images/aliens/Gravattack.png",
       "src/assets/images/aliens/GravattackButton.png"
-    ] 
+    ],
+    "series": "OV" 
   },
   {
     "id": "8c7a57c0-1c17-4afe-82a1-45d75221a0a3",
@@ -1230,7 +1279,8 @@
     "images": [
       "src/assets/images/aliens/Crashhopper.png",
       "src/assets/images/aliens/CrashhopperButton.png"
-    ] 
+    ],
+    "series": "OV" 
   },
   {
     "id": "cae64849-9939-4653-9926-7fc7d4325085",
@@ -1255,7 +1305,8 @@
     "images": [
       "src/assets/images/aliens/BallWeevil.png",
       "src/assets/images/aliens/BallWeevilButton.png"
-    ] 
+    ],
+    "series": "OV" 
   },
   {
     "id": "b90d50f2-d138-43b2-96d4-5e5581b68fc2",
@@ -1277,7 +1328,8 @@
     "images": [
       "src/assets/images/aliens/Walkatrout.png",
       "src/assets/images/aliens/WalkatroutButton.png"
-    ] 
+    ],
+    "series": "OV" 
   },
   {
     "id": "d39f675e-8f05-49f7-998d-eec16570c1ad",
@@ -1300,7 +1352,8 @@
     "images": [
       "src/assets/images/aliens/PeskyDust.png",
       "src/assets/images/aliens/PeskyDustButton.png"
-    ] 
+    ],
+    "series": "OV" 
   },
   {
     "id": "e78506e8-b804-4b61-b6ad-6fff21474873",
@@ -1323,7 +1376,8 @@
     "images": [
       "src/assets/images/aliens/MoleStache.png",
       "src/assets/images/aliens/MoleStacheButton.png"
-    ] 
+    ],
+    "series": "OV" 
   },
   {
     "id": "1cfbafb3-337b-4100-b2ec-a260623ee6b4",
@@ -1343,7 +1397,8 @@
     "images": [
       "src/assets/images/aliens/TheWorst.png",
       "src/assets/images/aliens/TheWorstButton.png"
-    ] 
+    ],
+    "series": "OV" 
   },
   {
     "id": "2a3e46f3-e4ef-49ac-90ed-be8318e2364b",
@@ -1367,7 +1422,8 @@
     "images": [
       "src/assets/images/aliens/KickinHawk.png",
       "src/assets/images/aliens/KickinHawkButton.png"
-    ] 
+    ],
+    "series": "OV" 
   },
   {
     "id": "888b54dc-f2ad-43cc-9ed2-64be9edefc8e",
@@ -1390,7 +1446,8 @@
     "images": [
       "src/assets/images/aliens/Toepick.png",
       "src/assets/images/aliens/ToepickButton.png"
-    ] 
+    ],
+    "series": "OV" 
   },
   {
     "id": "2781c8e2-3dff-4989-b7e0-891252ae260f",
@@ -1412,7 +1469,8 @@
     "images": [
       "src/assets/images/aliens/Astrodactyl.png",
       "src/assets/images/aliens/AstrodactylButton.png"
-    ] 
+    ],
+    "series": "OV" 
   },
   {
     "id": "bfd5de70-4846-4366-ad51-8885571c7dd2",
@@ -1436,7 +1494,8 @@
     "images": [
       "src/assets/images/aliens/Bullfrag.png",
       "src/assets/images/aliens/BullfragButton.png"
-    ] 
+    ],
+    "series": "OV" 
   },
   {
     "id": "d63a405b-03b6-4e07-9c37-b054bac072a2",
@@ -1460,7 +1519,8 @@
     "images": [
       "src/assets/images/aliens/Atomix.png",
       "src/assets/images/aliens/AtomixButton.png"
-    ] 
+    ],
+    "series": "OV" 
   },
   {
     "id": "6e21b56f-20dd-4218-9fe1-9bd20fd1f3dc",
@@ -1484,7 +1544,8 @@
     "images": [
       "src/assets/images/aliens/Gutrot.png",
       "src/assets/images/aliens/GutrotButton.png"
-    ] 
+    ],
+    "series": "OV" 
   },
   {
     "id": "67f6eba2-d949-4671-92b1-828b193c25a4",
@@ -1511,6 +1572,7 @@
     "images": [
       "src/assets/images/aliens/Whampire.png",
       "src/assets/images/aliens/WhampireButton.png"
-    ] 
+    ],
+    "series": "OV" 
   }
 ]

@@ -1,0 +1,10 @@
+<?xml version="1.0" ?>
+<svg data-name="Layer 1" id="Layer_1" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+    <title/>
+    <path fill="white" d="M12,13H24a1,1,0,0,0,0-2H12a1,1,0,0,0,0,2Z"/>
+    <path fill="white" d="M24,15H12a1,1,0,0,0,0,2H24a1,1,0,0,0,0-2Z"/>
+    <path fill="white" d="M24,19H12a1,1,0,0,0,0,2H24a1,1,0,0,0,0-2Z"/>
+    <path fill="white" d="M9,11H8a1,1,0,0,0,0,2H9a1,1,0,0,0,0-2Z"/>
+    <path fill="white" d="M9,15H8a1,1,0,0,0,0,2H9a1,1,0,0,0,0-2Z"/>
+    <path fill="white" d="M9,19H8a1,1,0,0,0,0,2H9a1,1,0,0,0,0-2Z"/>
+</svg>

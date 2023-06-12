@@ -4,27 +4,42 @@ import aliens from '../assets/data/aliens.json';
 import SearchBar from './SearchBar';
 import gif from '../assets/images/omnitrixanim.gif';
 import AlienListItem from './AlienListItem';
+import Categories from './Categories'; 
 
 export default function AlienList() {
   const [alienList, setAlienList] = useState<Alien[]>([]);
   const [query, setQuery] = useState<string>('');
+  const [category, setCategory] = useState<string>('');
 
   useEffect(() => {  
     setAlienList(aliens);
   }, []);
 
+  const categorizedAlienList = useMemo(() => {
+    if (category === '') {
+      return alienList;
+    } else {
+      return alienList.filter((alien) => alien.series === category);
+    }
+  }, [alienList, category]);
+  
   const filteredAlienList = useMemo(() => {
-    return alienList.filter((alien) =>
+    return categorizedAlienList.filter((alien) =>
       alien.name.toLowerCase().includes(query.toLowerCase())
     );
-  }, [alienList, query]);
+  }, [categorizedAlienList, query]);
 
   return (
     <>
-      <div className='flex justify-center bg-gray-900 border-t-2 border-black'>
+      <div className='flex justify-center bg-gray-900'>
         <img src={gif} className='mix-blend-color-dodge max-h-screen opacity-20'></img>
       </div>
-      <SearchBar query={query} setQuery={setQuery} />
+
+      <div className='sticky top-0 flex flex-wrap justify-center mb-4 p-4 bg-gray-900 z-20 border-b-2 border-black'>
+        <SearchBar query={query} setQuery={setQuery} />
+        <Categories category={category} setCategory={setCategory} />
+      </div>
+      
       <div className='container mx-auto p-4'>
         <div className='grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 pb-4'>
           <AlienListItem filteredAlienList={filteredAlienList}/>

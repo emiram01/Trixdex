@@ -21,22 +21,33 @@ export default function AlienInfo() {
   }
 
   return (
-    <div className='bg-gray-900 h-screen border-t-2 border-black overflow-hidden'>
+    <div className='overflow-x-hidden bg-gray-900 h-full'>
       {alienInfo ? (
         <div className='container mx-auto'>
-          <div className='h-96 lg:h-[36rem] ml-[-50%] w-[200%] rounded-b-[100%] bg-emerald-500 overflow-visible'>
+          <div className='h-96 lg:h-[36rem] ml-[-50%] w-[200%] rounded-b-[100%] bg-green-500'>
             <h2 className='text-4xl lg:text-5xl text-center text-white font-extrabold p-4'>{alienInfo.name.toUpperCase()}</h2>
             <img src={alienInfo.images[0]} className='mx-auto p-4 h-full'/>
           </div>
 
-          <div className='text-white font-semibold bg-gray-800 rounded-lg p-6'>
-            <p className='p-2'>{`Species: ${alienInfo.species}`}</p>
-            <p className='p-2'>{`Home Planet: ${alienInfo.homePlanet}`}</p>
-            <p className='p-2'>{`Body: ${alienInfo.body}`}</p>
+          <div className='flex flex-col p-4 mt-10'>
+            <div className='text-white font-semibold bg-gray-800 rounded-lg p-6 m-2 text-center'>
+              <p className='p-2'>{`${alienInfo.description}`}</p>
+              <p className='p-2'>{`Species: ${alienInfo.species}`}</p>
+              <p className='p-2'>{`Home Planet: ${alienInfo.homePlanet}`}</p>
+              <p className='p-2'>{`Body: ${alienInfo.body}`}</p>
+            </div>
+
+            <div className='text-white font-semibold bg-gray-800 rounded-lg p-6 m-2'>
+              <p className='p-2'>{`Abilities: ${alienInfo.abilities}`}</p>
+            </div>
+            
+            
+            <div className='text-white font-semibold bg-gray-800 rounded-lg p-6 m-2'>
+              <p className='text-white'>{`Weaknesses: ${alienInfo.weaknesses}`}</p>
+            </div>
           </div>
-          <p className='text-white'>{`Description: ${alienInfo.description}`}</p>
-          <p className='text-white'>{`Abilities: ${alienInfo.abilities}`}</p>
-          <p className='text-white'>{`Weaknesses: ${alienInfo.weaknesses}`}</p>
+
+          
         </div>
       ) : (
         <ErrorPage /> 
