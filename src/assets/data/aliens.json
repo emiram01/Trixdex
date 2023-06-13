@@ -309,7 +309,7 @@
     "species": "Sphoeroid",
     "homePlanet": "Scalpasc",
     "body": "Humanoid Pufferfish",
-    "description": "Spitter is a bulbous alien resembling a pufferfish with legs. He can inflate into a ball-like shape and spit out a concentrated blast of very slippery slime",
+    "description": "Spitter is a bulbous alien resembling a pufferfish with legs. He can inflate into a ball-like shape and spit out a concentrated blast of very slippery slime.",
     "abilities": [
       "Slime Spit",
       "Conductive Slime",
@@ -529,7 +529,7 @@
     "species": "To'kustar",
     "homePlanet": "Cosmic Storms",
     "body": "Giant Humanoid",
-    "description": "Way Big is a white colossal humanoid creature with a large fin on his head. He can can shoot powerful cosmic rays by crossing his arms together and grow to immense size",
+    "description": "Way Big is a white colossal humanoid creature with a large fin on his head. He can can shoot powerful cosmic rays by crossing his arms together and grow to immense size.",
     "abilities": [
       "Size Alteration",
       "Cosmic Rays",
@@ -1057,7 +1057,7 @@
     "species": "Merlinisapien",
     "homePlanet": "Unknown",
     "body": "Humanoid Salamander",
-    "description": "Chamalien has a slim body that resembles a large purple salamander with darker purple camo-esque spots all over. He is capable of blending in with the color of his surroundings with such effectiveness that he appears invisible",
+    "description": "Chamalien has a slim body that resembles a large purple salamander with darker purple camo-esque spots all over. He is capable of blending in with the color of his surroundings with such effectiveness that he appears invisible.",
     "abilities": [
       "Camouflage",
       "Wall Scaling",
@@ -1361,7 +1361,7 @@
     "species": "Unknown",
     "homePlanet": "Unknown",
     "body": "Rodentoid",
-    "description": "Mole-Stache is a rodentoid alien with a big blonde mustache and beaver-like teeth. His mustache is free-forming and able stretch itself into a variety of shapes",
+    "description": "Mole-Stache is a rodentoid alien with a big blonde mustache and beaver-like teeth. His mustache is free-forming and able stretch itself into a variety of shapes.",
     "abilities": [
       "Comakinesis",
       "Malleable Mustache",

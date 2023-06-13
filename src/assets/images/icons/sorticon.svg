@@ -1,10 +1,9 @@
-<?xml version="1.0" ?>
-<svg data-name="Layer 1" id="Layer_1" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
-    <title/>
-    <path fill="white" d="M12,13H24a1,1,0,0,0,0-2H12a1,1,0,0,0,0,2Z"/>
-    <path fill="white" d="M24,15H12a1,1,0,0,0,0,2H24a1,1,0,0,0,0-2Z"/>
-    <path fill="white" d="M24,19H12a1,1,0,0,0,0,2H24a1,1,0,0,0,0-2Z"/>
-    <path fill="white" d="M9,11H8a1,1,0,0,0,0,2H9a1,1,0,0,0,0-2Z"/>
-    <path fill="white" d="M9,15H8a1,1,0,0,0,0,2H9a1,1,0,0,0,0-2Z"/>
-    <path fill="white" d="M9,19H8a1,1,0,0,0,0,2H9a1,1,0,0,0,0-2Z"/>
+<svg width="256px" height="256px" viewBox="0 0 24.00 24.00" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+    <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+    <g id="SVGRepo_iconCarrier">
+        <path d="M4 7H20" stroke="#9ca3af" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"></path>
+        <path d="M4 12L14 12" stroke="#9ca3af" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"></path>
+        <path d="M4 17H6" stroke="#9ca3af" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"></path>
+    </g>
 </svg>

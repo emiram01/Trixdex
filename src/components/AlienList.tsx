@@ -32,13 +32,16 @@ export default function AlienList() {
   return (
     <>
       <div className='flex justify-center bg-gray-900'>
-        <img src={gif} className='mix-blend-color-dodge max-h-screen opacity-20'></img>
+        <img src={gif} className='mix-blend-color-dodge max-h-[50vh] opacity-20'></img>
       </div>
 
-      <div className='sticky top-0 flex flex-wrap justify-center mb-4 p-4 bg-gray-900 z-20 border-b-2 border-black'>
-        <SearchBar query={query} setQuery={setQuery} />
-        <Categories category={category} setCategory={setCategory} />
+      <div className='bg-gray-900 border-b-2 border-black z-20 sticky top-0'>
+        <div className='container mx-auto sticky top-0 flex flex-wrap justify-between p-4 md:py-0 w-full xl:w-2/3 2xl:w-1/2 lg:min-w-[62rem]'>
+          <SearchBar query={query} setQuery={setQuery} />
+          <Categories category={category} setCategory={setCategory} />
+        </div>
       </div>
+
       
       <div className='container mx-auto p-4'>
         <div className='grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 pb-4'>
