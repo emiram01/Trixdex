@@ -9,4 +9,5 @@ export interface Alien {
     weaknesses: string[];
     images: string[];
     series: string;
+    color: string;
 }

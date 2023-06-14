@@ -23,7 +23,8 @@
       "src/assets/images/aliens/Heatblast.png",
       "src/assets/images/aliens/HeatblastButton.png"
     ],
-    "series": "OS"
+    "series": "OS",
+    "color": "amber"
   },
   {
     "id": "aeb87d11-36a3-47d5-a618-075915ece8bb",
@@ -48,7 +49,8 @@
       "src/assets/images/aliens/Wildmutt.png",
       "src/assets/images/aliens/WildmuttButton.png"
     ],
-    "series": "OS"
+    "series": "OS",
+    "color": "orange"
   },
   {
     "id": "d7dc9e44-ff86-4355-8f17-64059256890d",
@@ -73,7 +75,8 @@
       "src/assets/images/aliens/Diamondhead.png",
       "src/assets/images/aliens/DiamondheadButton.png"
     ],
-    "series": "OS" 
+    "series": "OS",
+    "color": "emerald"
   },
   {
     "id": "38d7e88c-a36a-426d-a5d2-ca6a2dc67c55",
@@ -98,7 +101,8 @@
       "src/assets/images/aliens/XLR8.png",
       "src/assets/images/aliens/XLR8Button.png"
     ],
-    "series": "OS" 
+    "series": "OS",
+    "color": "cyan"
   },
   {
     "id": "b718cd07-7172-4890-a9ca-eab955abafd7",
@@ -121,7 +125,8 @@
       "src/assets/images/aliens/GreyMatter.png",
       "src/assets/images/aliens/GreyMatterButton.png"
     ],
-    "series": "OS" 
+    "series": "OS",
+    "color": "slate"
   },
   {
     "id": "725c89f5-f3aa-48ab-9c40-8c991833b211",
@@ -146,7 +151,8 @@
       "src/assets/images/aliens/FourArms.png",
       "src/assets/images/aliens/FourArmsButton.png"
     ],
-    "series": "OS" 
+    "series": "OS",
+    "color": "red" 
   },
   {
     "id": "bbc2f0f4-7e19-4016-9489-a5c64f7db2f5",
@@ -172,7 +178,8 @@
       "src/assets/images/aliens/Stinkfly.png",
       "src/assets/images/aliens/StinkflyButton.png"
     ],
-    "series": "OS" 
+    "series": "OS",
+    "color": "lime" 
   },
   {
     "id": "7fab0c51-6033-488b-b00e-49336bf662df",
@@ -198,7 +205,8 @@
       "src/assets/images/aliens/Ripjaws.png",
       "src/assets/images/aliens/RipjawsButton.png"
     ],
-    "series": "OS" 
+    "series": "OS",
+    "color": "green" 
   },
   {
     "id": "97b7914f-74de-4a70-a116-4091fac8600d",
@@ -224,7 +232,8 @@
       "src/assets/images/aliens/Upgrade.png",
       "src/assets/images/aliens/UpgradeButton.png"
     ],
-    "series": "OS" 
+    "series": "OS",
+    "color": "lime" 
   },
   {
     "id": "9cde3ede-f718-4916-9067-163d86db2ac3",
@@ -250,7 +259,8 @@
       "src/assets/images/aliens/Ghostfreak.png",
       "src/assets/images/aliens/GhostfreakButton.png"
     ],
-    "series": "OS" 
+    "series": "OS",
+    "color": "slate" 
   },
   {
     "id": "5215828a-2ed7-4eae-9921-46b5e2e3e0ad",
@@ -275,7 +285,8 @@
       "src/assets/images/aliens/Cannonbolt.png",
       "src/assets/images/aliens/CannonboltButton.png"
     ],
-    "series": "OS" 
+    "series": "OS",
+    "color": "yellow" 
   },
   {
     "id": "f4861e11-74d4-421b-b4eb-39e7237a5cdf",
@@ -301,7 +312,8 @@
       "src/assets/images/aliens/Wildvine.png",
       "src/assets/images/aliens/WildvineButton.png"
     ],
-    "series": "OS" 
+    "series": "OS",
+    "color": "green" 
   },
   {
     "id": "c37fc161-399d-421a-ba50-170205900772",
@@ -323,7 +335,8 @@
       "src/assets/images/aliens/Spitter.png",
       "src/assets/images/aliens/SpitterButton.png"
     ],
-    "series": "OS" 
+    "series": "OS",
+    "color": "lime" 
   },
   {
     "id": "caa8cf9e-e0e6-4d30-89f3-689d1e0f0969",
@@ -349,7 +362,8 @@
       "src/assets/images/aliens/Buzzshock.png",
       "src/assets/images/aliens/BuzzshockButton.png"
     ],
-    "series": "OS" 
+    "series": "OS",
+    "color": "green" 
   },
   {
     "id": "9a998530-b171-46f1-9a13-486b63d805ca",
@@ -373,7 +387,8 @@
       "src/assets/images/aliens/Arctiguana.png",
       "src/assets/images/aliens/ArctiguanaButton.png"
     ],
-    "series": "OS" 
+    "series": "OS",
+    "color": "cyan" 
   },
   {
     "id": "81c583e2-3711-46dc-9fbd-f4855c63042b",
@@ -397,7 +412,8 @@
       "src/assets/images/aliens/Blitzwolfer.png",
       "src/assets/images/aliens/BlitzwolferButton.png"
     ],
-    "series": "OS" 
+    "series": "OS",
+    "color": "slate"
   },
   {
     "id": "bc68200d-78e6-44a8-ae10-b5e6d46e2bbb",
@@ -422,7 +438,8 @@
       "src/assets/images/aliens/SnareOh.png",
       "src/assets/images/aliens/SnareOhButton.png"
     ],
-    "series": "OS" 
+    "series": "OS",
+    "color": "stone"
   },
   {
     "id": "5f5b8335-91ea-43ab-9536-4cad732ed3ef",
@@ -446,7 +463,8 @@
       "src/assets/images/aliens/Frankenstrike.png",
       "src/assets/images/aliens/FrankenstrikeButton.png"
     ],
-    "series": "OS" 
+    "series": "OS",
+    "color": "stone"
   },
   {
     "id": "0ee03aa1-53a6-4889-a186-0f8813cb3d37",
@@ -470,7 +488,8 @@
       "src/assets/images/aliens/Upchuck.png",
       "src/assets/images/aliens/UpchuckButton.png"
     ],
-    "series": "OS" 
+    "series": "OS",
+    "color": "lime"
   },
   {
     "id": "e1ff1e40-6638-422d-af5d-9652f1808bd8",
@@ -494,7 +513,8 @@
       "src/assets/images/aliens/Ditto.png",
       "src/assets/images/aliens/DittoButton.png"
     ],
-    "series": "OS" 
+    "series": "OS",
+    "color": "lime"
   },
   {
     "id": "e6dc6b11-ea98-4f51-ad37-7af0f081e655",
@@ -521,7 +541,8 @@
       "src/assets/images/aliens/EyeGuy.png",
       "src/assets/images/aliens/EyeGuyButton.png"
     ],
-    "series": "OS" 
+    "series": "OS",
+    "color": "amber"
   },
   {
     "id": "fb915161-e833-403b-8a87-36181374e422",
@@ -547,7 +568,8 @@
       "src/assets/images/aliens/WayBig.png",
       "src/assets/images/aliens/WayBigButton.png"
     ],
-    "series": "OS" 
+    "series": "OS",
+    "color": "red"
   },
   {
     "id": "d054a122-f17a-40f5-bade-0edc948e37fe",
@@ -574,7 +596,8 @@
       "src/assets/images/aliens/Swampfire.png",
       "src/assets/images/aliens/SwampfireButton.png"
     ],
-    "series": "AF" 
+    "series": "AF",
+    "color": "green"
   },
   {
     "id": "17566339-47ef-422e-a37d-dfb7dd118c25",
@@ -600,7 +623,8 @@
       "src/assets/images/aliens/EchoEcho.png",
       "src/assets/images/aliens/EchoEchoButton.png"
     ],
-    "series": "AF" 
+    "series": "AF",
+    "color": "lime"
   },
   {
     "id": "a7d1a7ad-84ac-4db8-a3d6-18549b4cfb48",
@@ -626,7 +650,8 @@
       "src/assets/images/aliens/Humungosaur.png",
       "src/assets/images/aliens/HumungosaurButton.png"
     ],
-    "series": "AF" 
+    "series": "AF",
+    "color": "stone"
   },
   {
     "id": "b5339e91-7e40-45ed-a761-baa874e43e97",
@@ -652,7 +677,8 @@
       "src/assets/images/aliens/Jetray.png",
       "src/assets/images/aliens/JetrayButton.png"
     ],
-    "series": "AF" 
+    "series": "AF",
+    "color": "red"
   },
   {
     "id": "71d5b9a5-fca6-4ac8-824a-572cfac1c160",
@@ -680,7 +706,8 @@
       "src/assets/images/aliens/BigChill.png",
       "src/assets/images/aliens/BigChillButton.png"
     ],
-    "series": "AF" 
+    "series": "AF",
+    "color": "blue"
   },
   {
     "id": "7e84c567-2627-47f9-a556-dde30cf48a9c",
@@ -705,7 +732,8 @@
       "src/assets/images/aliens/Chromastone.png",
       "src/assets/images/aliens/ChromastoneButton.png"
     ],
-    "series": "AF" 
+    "series": "AF",
+    "color": "pink"
   },
   {
     "id": "5bf8c3ac-ed60-43d9-8ce0-5915d153a210",
@@ -731,7 +759,8 @@
       "src/assets/images/aliens/Brainstorm.png",
       "src/assets/images/aliens/BrainstormButton.png"
     ],
-    "series": "AF" 
+    "series": "AF",
+    "color": "orange"
   },
   {
     "id": "f870acbf-9604-4158-8d8e-71e32e85578e",
@@ -755,7 +784,8 @@
       "src/assets/images/aliens/Spidermonkey.png",
       "src/assets/images/aliens/SpidermonkeyButton.png"
     ],
-    "series": "AF" 
+    "series": "AF",
+    "color": "blue"
   },
   {
     "id": "a95e82bc-bd1a-483d-990a-9a64e74ffdba",
@@ -781,7 +811,8 @@
       "src/assets/images/aliens/Goop.png",
       "src/assets/images/aliens/GoopButton.png"
     ],
-    "series": "AF" 
+    "series": "AF",
+    "color": "lime"
   },
   {
     "id": "8446cc29-275c-4778-b849-ada6a7e379ef",
@@ -808,7 +839,8 @@
       "src/assets/images/aliens/AlienX.png",
       "src/assets/images/aliens/AlienXButton.png"
     ],
-    "series": "AF" 
+    "series": "AF",
+    "color": "green"
   },
   {
     "id": "b8453c17-28a2-46ca-a1e7-f5a2903b7a49",
@@ -835,7 +867,8 @@
       "src/assets/images/aliens/Nanomech.png",
       "src/assets/images/aliens/NanomechButton.png"
     ],
-    "series": "AF" 
+    "series": "AF",
+    "color": "slate"
   },
   {
     "id": "eb0c6cda-2467-4896-9c2f-8212826af90d",
@@ -862,7 +895,8 @@
       "src/assets/images/aliens/Lodestar.png",
       "src/assets/images/aliens/LodestarButton.png"
     ],
-    "series": "AF" 
+    "series": "AF",
+    "color": "yellow"
   },
   {
     "id": "7b4ff965-8ee3-40d4-9e99-47f6e71d2b93",
@@ -890,7 +924,8 @@
       "src/assets/images/aliens/Rath.png",
       "src/assets/images/aliens/RathButton.png"
     ],
-    "series": "AF" 
+    "series": "AF",
+    "color": "orange"
   },
   {
     "id": "e4c74d16-27b2-4108-927c-bfba87484d8c",
@@ -916,7 +951,8 @@
       "src/assets/images/aliens/WaterHazard.png",
       "src/assets/images/aliens/WaterHazardButton.png"
     ],
-    "series": "UA" 
+    "series": "UA",
+    "color": "red"
   },
   {
     "id": "09975afa-c754-495e-b818-354e8ab018fe",
@@ -943,7 +979,8 @@
       "src/assets/images/aliens/Ampfibian.png",
       "src/assets/images/aliens/AmpfibianButton.png"
     ],
-    "series": "UA" 
+    "series": "UA",
+    "color": "cyan"
   },
   {
     "id": "3c5e5836-0c53-4b1b-a5d6-29ed776cd05d",
@@ -970,7 +1007,8 @@
       "src/assets/images/aliens/Armodrillo.png",
       "src/assets/images/aliens/ArmodrilloButton.png"
     ],
-    "series": "UA" 
+    "series": "UA",
+    "color": "yellow"
   },
   {
     "id": "ea5308ea-bbb5-4b8b-926f-a57a54e9d595",
@@ -998,7 +1036,8 @@
       "src/assets/images/aliens/Terraspin.png",
       "src/assets/images/aliens/TerraspinButton.png"
     ],
-    "series": "UA" 
+    "series": "UA",
+    "color": "lime"
   },
   {
     "id": "18bbe449-253e-40a9-b661-df800fc1dc45",
@@ -1026,7 +1065,8 @@
       "src/assets/images/aliens/NRG.png",
       "src/assets/images/aliens/NRGButton.png"
     ],
-    "series": "UA" 
+    "series": "UA",
+    "color": "slate"
   },
   {
     "id": "2edb940f-adc9-4613-b61c-99eb411b9da5",
@@ -1049,7 +1089,8 @@
       "src/assets/images/aliens/Fasttrack.png",
       "src/assets/images/aliens/FasttrackButton.png"
     ],
-    "series": "UA" 
+    "series": "UA",
+    "color": "blue"
   },
   {
     "id": "b59ca405-3059-433b-b09e-9c21a0d7ef56",
@@ -1073,7 +1114,8 @@
       "src/assets/images/aliens/Chamalien.png",
       "src/assets/images/aliens/ChamalienButton.png"
     ],
-    "series": "UA" 
+    "series": "UA",
+    "color": "indigo"
   },
   {
     "id": "cf4bfe3d-e667-42cf-90e5-5109472d7095",
@@ -1098,7 +1140,8 @@
       "src/assets/images/aliens/Eatle.png",
       "src/assets/images/aliens/EatleButton.png"
     ],
-    "series": "UA" 
+    "series": "UA",
+    "color": "slate"
   },
   {
     "id": "9f792626-1671-45f5-ac6e-1e0e8bec48df",
@@ -1123,7 +1166,8 @@
       "src/assets/images/aliens/Clockwork.png",
       "src/assets/images/aliens/ClockworkButton.png"
     ],
-    "series": "UA" 
+    "series": "UA",
+    "color": "amber"
   },
   {
     "id": "2cf2c3a4-6cb4-4b77-a809-25220eed8040",
@@ -1148,7 +1192,8 @@
       "src/assets/images/aliens/Shocksquatch.png",
       "src/assets/images/aliens/ShocksquatchButton.png"
     ],
-    "series": "UA" 
+    "series": "UA",
+    "color": "yellow"
   },
   {
     "id": "24f5c8da-e2b3-4190-be6a-fc69a25ba0b5",
@@ -1171,7 +1216,8 @@
       "src/assets/images/aliens/Juryrigg.png",
       "src/assets/images/aliens/JuryriggButton.png"
     ],
-    "series": "UA" 
+    "series": "UA",
+    "color": "red"
   },
   {
     "id": "842afdb8-c27d-427b-9a70-d1a512b7985c",
@@ -1199,7 +1245,8 @@
       "src/assets/images/aliens/Feedback.png",
       "src/assets/images/aliens/FeedbackButton.png"
     ],
-    "series": "OV" 
+    "series": "OV",
+    "color": "green"
   },
   {
     "id": "cf9071fc-1a72-44b8-88aa-177e8d9b3a6d",
@@ -1226,7 +1273,8 @@
       "src/assets/images/aliens/Bloxx.png",
       "src/assets/images/aliens/BloxxButton.png"
     ],
-    "series": "OV" 
+    "series": "OV",
+    "color": "red"
   },
   {
     "id": "ceeb5988-1f31-47bf-b68c-eb02c86ea243",
@@ -1253,7 +1301,8 @@
       "src/assets/images/aliens/Gravattack.png",
       "src/assets/images/aliens/GravattackButton.png"
     ],
-    "series": "OV" 
+    "series": "OV",
+    "color": "amber"
   },
   {
     "id": "8c7a57c0-1c17-4afe-82a1-45d75221a0a3",
@@ -1280,7 +1329,8 @@
       "src/assets/images/aliens/Crashhopper.png",
       "src/assets/images/aliens/CrashhopperButton.png"
     ],
-    "series": "OV" 
+    "series": "OV",
+    "color": "lime"
   },
   {
     "id": "cae64849-9939-4653-9926-7fc7d4325085",
@@ -1306,7 +1356,8 @@
       "src/assets/images/aliens/BallWeevil.png",
       "src/assets/images/aliens/BallWeevilButton.png"
     ],
-    "series": "OV" 
+    "series": "OV",
+    "color": "yellow"
   },
   {
     "id": "b90d50f2-d138-43b2-96d4-5e5581b68fc2",
@@ -1329,7 +1380,8 @@
       "src/assets/images/aliens/Walkatrout.png",
       "src/assets/images/aliens/WalkatroutButton.png"
     ],
-    "series": "OV" 
+    "series": "OV",
+    "color": "cyan"
   },
   {
     "id": "d39f675e-8f05-49f7-998d-eec16570c1ad",
@@ -1353,7 +1405,8 @@
       "src/assets/images/aliens/PeskyDust.png",
       "src/assets/images/aliens/PeskyDustButton.png"
     ],
-    "series": "OV" 
+    "series": "OV",
+    "color": "purple"
   },
   {
     "id": "e78506e8-b804-4b61-b6ad-6fff21474873",
@@ -1377,7 +1430,8 @@
       "src/assets/images/aliens/MoleStache.png",
       "src/assets/images/aliens/MoleStacheButton.png"
     ],
-    "series": "OV" 
+    "series": "OV",
+    "color": "amber"
   },
   {
     "id": "1cfbafb3-337b-4100-b2ec-a260623ee6b4",
@@ -1398,7 +1452,8 @@
       "src/assets/images/aliens/TheWorst.png",
       "src/assets/images/aliens/TheWorstButton.png"
     ],
-    "series": "OV" 
+    "series": "OV",
+    "color": "yellow"
   },
   {
     "id": "2a3e46f3-e4ef-49ac-90ed-be8318e2364b",
@@ -1423,7 +1478,8 @@
       "src/assets/images/aliens/KickinHawk.png",
       "src/assets/images/aliens/KickinHawkButton.png"
     ],
-    "series": "OV" 
+    "series": "OV",
+    "color": "yellow"
   },
   {
     "id": "888b54dc-f2ad-43cc-9ed2-64be9edefc8e",
@@ -1447,7 +1503,8 @@
       "src/assets/images/aliens/Toepick.png",
       "src/assets/images/aliens/ToepickButton.png"
     ],
-    "series": "OV" 
+    "series": "OV",
+    "color": "lime"
   },
   {
     "id": "2781c8e2-3dff-4989-b7e0-891252ae260f",
@@ -1470,7 +1527,8 @@
       "src/assets/images/aliens/Astrodactyl.png",
       "src/assets/images/aliens/AstrodactylButton.png"
     ],
-    "series": "OV" 
+    "series": "OV",
+    "color": "orange"
   },
   {
     "id": "bfd5de70-4846-4366-ad51-8885571c7dd2",
@@ -1495,7 +1553,8 @@
       "src/assets/images/aliens/Bullfrag.png",
       "src/assets/images/aliens/BullfragButton.png"
     ],
-    "series": "OV" 
+    "series": "OV",
+    "color": "lime"
   },
   {
     "id": "d63a405b-03b6-4e07-9c37-b054bac072a2",
@@ -1520,7 +1579,8 @@
       "src/assets/images/aliens/Atomix.png",
       "src/assets/images/aliens/AtomixButton.png"
     ],
-    "series": "OV" 
+    "series": "OV",
+    "color": "lime"
   },
   {
     "id": "6e21b56f-20dd-4218-9fe1-9bd20fd1f3dc",
@@ -1545,7 +1605,8 @@
       "src/assets/images/aliens/Gutrot.png",
       "src/assets/images/aliens/GutrotButton.png"
     ],
-    "series": "OV" 
+    "series": "OV",
+    "color": "indigo"
   },
   {
     "id": "67f6eba2-d949-4671-92b1-828b193c25a4",
@@ -1573,6 +1634,7 @@
       "src/assets/images/aliens/Whampire.png",
       "src/assets/images/aliens/WhampireButton.png"
     ],
-    "series": "OV" 
+    "series": "OV",
+    "color": "green"
   }
 ]
