@@ -29,7 +29,7 @@ export default function AlienInfo() {
             <h2 className='text-4xl lg:text-5xl text-center text-white font-extrabold p-4'>
               {alienInfo.name.toUpperCase()}
             </h2>
-            <img src={alienInfo.images[0]} className='mx-auto p-4 h-full' />
+            <img src={new URL(alienInfo.images[0], import.meta.url).href} className='mx-auto p-4 h-full' />
           </div>
 
           <div className='flex flex-wrap p-4 mt-16 justify-center'>
@@ -61,7 +61,7 @@ export default function AlienInfo() {
               <InfoItem title='Anatomy'
                 content={(
                   <div className='py-4 flex justify-center m-auto items-center'>
-                    <img src={alienInfo.images[0]} className='h-8 lg:h-9 filter brightness-0 saturate-100 invert-[90%]' />
+                    <img src={new URL(alienInfo.images[0], import.meta.url).href} className='h-8 lg:h-9 filter brightness-0 saturate-100 invert-[90%]' />
                     <span className='ml-2 py-2'>{alienInfo.body}</span>
                   </div>
                 )}
