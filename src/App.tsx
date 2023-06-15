@@ -3,6 +3,7 @@ import AlienList from './components/AlienList';
 import AlienInfo from './components/AlienInfo';
 import ErrorPage from './components/ErrorPage';
 import RootLayout from './components/RootLayout';
+import InfoPage from './components/InfoPage';
 
 const bowserRouter = createBrowserRouter(
   createRoutesFromElements(
@@ -10,6 +11,7 @@ const bowserRouter = createBrowserRouter(
       <Route index element={<AlienList />}/>
       <Route path=':name' element={<AlienInfo />}/>
       <Route path='*' element={<ErrorPage />} />
+      <Route path='info' element={<InfoPage />} />
     </Route>
   )
 )

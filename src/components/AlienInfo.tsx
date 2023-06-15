@@ -1,16 +1,15 @@
 import { useEffect, useState } from 'react';
-import { useParams, useNavigate } from 'react-router-dom';
+import { useParams } from 'react-router-dom';
 import { Alien } from '../utils/Interfaces';
 import aliens from '../assets/data/aliens.json';
 import ErrorPage from './ErrorPage';
-import AlienInfoItem from './AlienInfoItem';
+import InfoItem from './InfoItem';
 import planet from '../assets/images/icons/planeticon.gif';
 
 export default function AlienInfo() {
   const [alienInfo, setAlienInfo] = useState<Alien | null>(null);
   const [loaded, setLoaded] = useState<boolean>(false);
   const { name } = useParams<{ name?: string }>();
-  const navigate = useNavigate();
 
   useEffect(() => {
     const foundAlien = aliens.find(alien => alien.name.replace(' ', '-').toLowerCase() === name?.toLowerCase());
@@ -34,13 +33,13 @@ export default function AlienInfo() {
           </div>
 
           <div className='flex flex-wrap p-4 mt-16 justify-center'>
-            <AlienInfoItem title="Overview"
+            <InfoItem title='Overview'
               content={<p className='p-2 m-auto'>{alienInfo.description}</p>}
               color={alienInfo.color}
             />
 
             <div className='flex flex-wrap lg:w-2/3 lg:flex-nowrap justify-center'>
-              <AlienInfoItem title="Origin"
+              <InfoItem title='Origin'
                 content={(
                   <div className='py-4 flex justify-center m-auto items-center'>
                     <img src={planet} className={`h-8 lg:h-10 filter ${alienInfo.homePlanet.includes('Unknown') ? 'grayscale' : 'hue-rotate-[310deg]'}`} />
@@ -50,7 +49,7 @@ export default function AlienInfo() {
                 color={alienInfo.color}
               />
 
-              <AlienInfoItem title="Species"
+              <InfoItem title='Species'
                 content={(
                   <div className='py-4 flex justify-center m-auto items-center'>
                     <span className='py-2'>{alienInfo.species}</span>
@@ -59,7 +58,7 @@ export default function AlienInfo() {
                 color={alienInfo.color}
               />
 
-              <AlienInfoItem title="Anatomy"
+              <InfoItem title='Anatomy'
                 content={(
                   <div className='py-4 flex justify-center m-auto items-center'>
                     <img src={alienInfo.images[0]} className='h-8 lg:h-9 filter brightness-0 saturate-100 invert-[90%]' />
@@ -71,7 +70,7 @@ export default function AlienInfo() {
             </div>
             
             <div className='flex flex-wrap justify-center w-full'>
-              <AlienInfoItem title="Abilities"
+              <InfoItem title='Abilities'
                 content={
                   <div className='sm:flex'>
                     <div className='sm:w-1/2'>
@@ -90,7 +89,7 @@ export default function AlienInfo() {
                 color={alienInfo.color}
               />
 
-              <AlienInfoItem title="Weaknesses"
+              <InfoItem title='Weaknesses'
                 content={
                   <div className='flex-wrap'>
                     {alienInfo.weaknesses.map((weakness, index) => (
