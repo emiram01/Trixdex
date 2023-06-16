@@ -7,6 +7,11 @@ export default {
   theme: {
     extend: {},
   },
+  safelist: [
+    {
+      pattern: /(bg|text|border)-(red|green|lime|blue|cyan|yellow|orange|amber|emerald|pink|purple|indigo|slate|stone|)-(400|500)/,
+    },
+  ],
   future: {
     hoverOnlyWhenSupported: true,
   },
