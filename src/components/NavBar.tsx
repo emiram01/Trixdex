@@ -9,7 +9,7 @@ export default function Navbar() {
           <img src={import.meta.env.BASE_URL + '/omnitrix.svg'} alt='Logo' className='h-8 mr-2' />
           TRIXDEX
         </NavLink>
-        <NavLink to={'info'} className='flex items-center text-white text-lg font-medium hover:brightness-75'>
+        <NavLink to={'info'} className='flex items-center text-white text-lg font-semibold hover:brightness-75'>
           <img src={infoicon} alt='Logo' className='h-6 mr-2' />
           Info
         </NavLink>

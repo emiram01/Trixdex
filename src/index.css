@@ -2,12 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-html {
-    overflow: hidden;
-    height: 100%;
-}
-
 body {
-    height: 100%;
-    overflow: auto;
+    background-color: #1F2937;
+    overflow-anchor: none;
 }
