@@ -13,7 +13,7 @@ export default {
     },
   ],
   future: {
-    hoverOnlyWhenSupported: true,
+    hoverOnlyWhenSupported: false,
   },
   plugins: [],
 }

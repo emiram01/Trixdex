@@ -5,8 +5,8 @@ export default function ErrorPage() {
   const error = useRouteError();
 
   return (
-    <div className='flex min-h-screen bg-gray-900'>
-      <div className='w-screen flex m-auto justify-center items-center p-4'>
+    <div className='min-h-screen bg-gray-900'>
+      <div className='flex m-auto justify-center items-center p-4'>
         <InfoItem
           title="404"
           content={(

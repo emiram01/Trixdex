@@ -25,7 +25,7 @@ export default function AlienInfo() {
     <div className='overflow-x-hidden bg-gray-900 min-h-screen'>
       {alienInfo ? (
         <div className='container mx-auto'>
-          <div className='h-96 lg:h-[36rem] ml-[-50%] w-[200%] rounded-b-[100%] bg-green-500'>
+          <div className='h-96 lg:h-[36rem] ml-[-50%] w-[200%] rounded-b-[100%] bg-emerald-500'>
             <h2 className='text-4xl lg:text-5xl text-center text-white font-extrabold p-4'>
               {alienInfo.name.toUpperCase()}
             </h2>

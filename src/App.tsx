@@ -13,7 +13,7 @@ const bowserRouter = createBrowserRouter(
       <Route path='*' element={<ErrorPage />} />
       <Route path='info' element={<InfoPage />} />
     </Route>
-  )
+  ), { basename: '/Trixdex' }
 )
 
 export default function App() {

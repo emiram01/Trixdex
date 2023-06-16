@@ -2,10 +2,10 @@ import linkedinicon from '../assets/images/icons/linkedinicon.svg';
 import githubicon from '../assets/images/icons/githubicon.svg';
 import InfoItem from './InfoItem';
 
-export default function ErrorPage() {
+export default function InfoPage() {
   return (
-    <div className='flex min-h-screen bg-gray-900'>
-      <div className='w-screen flex flex-col m-auto justify-center items-center p-4'>
+    <div className='min-h-screen bg-gray-900'>
+      <div className='flex flex-col m-auto justify-center items-center p-4'>
         <InfoItem
           title='About'
           content={(
