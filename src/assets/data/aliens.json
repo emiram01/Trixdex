@@ -20,8 +20,8 @@
       "Reignition Limit"
     ],
     "images": [
-      "./src/assets/images/aliens/Heatblast.png",
-      "./src/assets/images/aliens/HeatblastButton.png"
+      "../assets/images/aliens/Heatblast.png",
+      "../assets/images/aliens/HeatblastButton.png"
     ],
     "series": "OS",
     "color": "amber"
@@ -46,8 +46,8 @@
       "Lack of Speech"
     ],
     "images": [
-      "./src/assets/images/aliens/Wildmutt.png",
-      "./src/assets/images/aliens/WildmuttButton.png"
+      "../assets/images/aliens/Wildmutt.png",
+      "../assets/images/aliens/WildmuttButton.png"
     ],
     "series": "OS",
     "color": "orange"
@@ -72,8 +72,8 @@
       "Resistance Limit"
     ],
     "images": [
-      "./src/assets/images/aliens/Diamondhead.png",
-      "./src/assets/images/aliens/DiamondheadButton.png"
+      "../assets/images/aliens/Diamondhead.png",
+      "../assets/images/aliens/DiamondheadButton.png"
     ],
     "series": "OS",
     "color": "emerald"
@@ -98,8 +98,8 @@
       "Electromagnetic Vulnerability"
     ],
     "images": [
-      "./src/assets/images/aliens/XLR8.png",
-      "./src/assets/images/aliens/XLR8Button.png"
+      "../assets/images/aliens/XLR8.png",
+      "../assets/images/aliens/XLR8Button.png"
     ],
     "series": "OS",
     "color": "cyan"
@@ -122,8 +122,8 @@
       "Small Size"
     ],
     "images": [
-      "./src/assets/images/aliens/GreyMatter.png",
-      "./src/assets/images/aliens/GreyMatterButton.png"
+      "../assets/images/aliens/GreyMatter.png",
+      "../assets/images/aliens/GreyMatterButton.png"
     ],
     "series": "OS",
     "color": "slate"
@@ -148,8 +148,8 @@
       "Quill Vulnerability"
     ],
     "images": [
-      "./src/assets/images/aliens/FourArms.png",
-      "./src/assets/images/aliens/FourArmsButton.png"
+      "../assets/images/aliens/FourArms.png",
+      "../assets/images/aliens/FourArmsButton.png"
     ],
     "series": "OS",
     "color": "red" 
@@ -175,8 +175,8 @@
       "Detected by Smell"
     ],
     "images": [
-      "./src/assets/images/aliens/Stinkfly.png",
-      "./src/assets/images/aliens/StinkflyButton.png"
+      "../assets/images/aliens/Stinkfly.png",
+      "../assets/images/aliens/StinkflyButton.png"
     ],
     "series": "OS",
     "color": "lime" 
@@ -202,8 +202,8 @@
       "Electricity Vulnerability"
     ],
     "images": [
-      "./src/assets/images/aliens/Ripjaws.png",
-      "./src/assets/images/aliens/RipjawsButton.png"
+      "../assets/images/aliens/Ripjaws.png",
+      "../assets/images/aliens/RipjawsButton.png"
     ],
     "series": "OS",
     "color": "green" 
@@ -229,8 +229,8 @@
       "Elasticity Limit"
     ],
     "images": [
-      "./src/assets/images/aliens/Upgrade.png",
-      "./src/assets/images/aliens/UpgradeButton.png"
+      "../assets/images/aliens/Upgrade.png",
+      "../assets/images/aliens/UpgradeButton.png"
     ],
     "series": "OS",
     "color": "lime" 
@@ -256,8 +256,8 @@
       "Electricity Vulnerability"
     ],
     "images": [
-      "./src/assets/images/aliens/Ghostfreak.png",
-      "./src/assets/images/aliens/GhostfreakButton.png"
+      "../assets/images/aliens/Ghostfreak.png",
+      "../assets/images/aliens/GhostfreakButton.png"
     ],
     "series": "OS",
     "color": "slate" 
@@ -282,8 +282,8 @@
       "Electricity Vulnerability"
     ],
     "images": [
-      "./src/assets/images/aliens/Cannonbolt.png",
-      "./src/assets/images/aliens/CannonboltButton.png"
+      "../assets/images/aliens/Cannonbolt.png",
+      "../assets/images/aliens/CannonboltButton.png"
     ],
     "series": "OS",
     "color": "yellow" 
@@ -309,8 +309,8 @@
       "Heat Vulnerability"
     ],
     "images": [
-      "./src/assets/images/aliens/Wildvine.png",
-      "./src/assets/images/aliens/WildvineButton.png"
+      "../assets/images/aliens/Wildvine.png",
+      "../assets/images/aliens/WildvineButton.png"
     ],
     "series": "OS",
     "color": "green" 
@@ -332,8 +332,8 @@
       "Unknown"
     ],
     "images": [
-      "./src/assets/images/aliens/Spitter.png",
-      "./src/assets/images/aliens/SpitterButton.png"
+      "../assets/images/aliens/Spitter.png",
+      "../assets/images/aliens/SpitterButton.png"
     ],
     "series": "OS",
     "color": "lime" 
@@ -359,8 +359,8 @@
       "Lack of Speech"
     ],
     "images": [
-      "./src/assets/images/aliens/Buzzshock.png",
-      "./src/assets/images/aliens/BuzzshockButton.png"
+      "../assets/images/aliens/Buzzshock.png",
+      "../assets/images/aliens/BuzzshockButton.png"
     ],
     "series": "OS",
     "color": "green" 
@@ -384,8 +384,8 @@
       "Overexertion"
     ],
     "images": [
-      "./src/assets/images/aliens/Arctiguana.png",
-      "./src/assets/images/aliens/ArctiguanaButton.png"
+      "../assets/images/aliens/Arctiguana.png",
+      "../assets/images/aliens/ArctiguanaButton.png"
     ],
     "series": "OS",
     "color": "cyan" 
@@ -409,8 +409,8 @@
       "Sensitive Hearing"
     ],
     "images": [
-      "./src/assets/images/aliens/Blitzwolfer.png",
-      "./src/assets/images/aliens/BlitzwolferButton.png"
+      "../assets/images/aliens/Blitzwolfer.png",
+      "../assets/images/aliens/BlitzwolferButton.png"
     ],
     "series": "OS",
     "color": "slate"
@@ -435,8 +435,8 @@
       "Cold Vulnerability"
     ],
     "images": [
-      "./src/assets/images/aliens/SnareOh.png",
-      "./src/assets/images/aliens/SnareOhButton.png"
+      "../assets/images/aliens/SnareOh.png",
+      "../assets/images/aliens/SnareOhButton.png"
     ],
     "series": "OS",
     "color": "stone"
@@ -460,8 +460,8 @@
       "Large Size"
     ],
     "images": [
-      "./src/assets/images/aliens/Frankenstrike.png",
-      "./src/assets/images/aliens/FrankenstrikeButton.png"
+      "../assets/images/aliens/Frankenstrike.png",
+      "../assets/images/aliens/FrankenstrikeButton.png"
     ],
     "series": "OS",
     "color": "stone"
@@ -485,8 +485,8 @@
       "Hunger Temptation"
     ],
     "images": [
-      "./src/assets/images/aliens/Upchuck.png",
-      "./src/assets/images/aliens/UpchuckButton.png"
+      "../assets/images/aliens/Upchuck.png",
+      "../assets/images/aliens/UpchuckButton.png"
     ],
     "series": "OS",
     "color": "lime"
@@ -510,8 +510,8 @@
       "Cold Vulnerability"
     ],
     "images": [
-      "./src/assets/images/aliens/Ditto.png",
-      "./src/assets/images/aliens/DittoButton.png"
+      "../assets/images/aliens/Ditto.png",
+      "../assets/images/aliens/DittoButton.png"
     ],
     "series": "OS",
     "color": "lime"
@@ -538,8 +538,8 @@
       "Amplified Phobias"
     ],
     "images": [
-      "./src/assets/images/aliens/EyeGuy.png",
-      "./src/assets/images/aliens/EyeGuyButton.png"
+      "../assets/images/aliens/EyeGuy.png",
+      "../assets/images/aliens/EyeGuyButton.png"
     ],
     "series": "OS",
     "color": "amber"
@@ -565,8 +565,8 @@
       "Electricity Vulnerability"
     ],
     "images": [
-      "./src/assets/images/aliens/WayBig.png",
-      "./src/assets/images/aliens/WayBigButton.png"
+      "../assets/images/aliens/WayBig.png",
+      "../assets/images/aliens/WayBigButton.png"
     ],
     "series": "OS",
     "color": "red"
@@ -593,8 +593,8 @@
       "Pesticide Vulnerability"
     ],
     "images": [
-      "./src/assets/images/aliens/Swampfire.png",
-      "./src/assets/images/aliens/SwampfireButton.png"
+      "../assets/images/aliens/Swampfire.png",
+      "../assets/images/aliens/SwampfireButton.png"
     ],
     "series": "AF",
     "color": "green"
@@ -620,8 +620,8 @@
       "Quill Vulnerability"
     ],
     "images": [
-      "./src/assets/images/aliens/EchoEcho.png",
-      "./src/assets/images/aliens/EchoEchoButton.png"
+      "../assets/images/aliens/EchoEcho.png",
+      "../assets/images/aliens/EchoEchoButton.png"
     ],
     "series": "AF",
     "color": "lime"
@@ -647,8 +647,8 @@
       "Resistance Limit"
     ],
     "images": [
-      "./src/assets/images/aliens/Humungosaur.png",
-      "./src/assets/images/aliens/HumungosaurButton.png"
+      "../assets/images/aliens/Humungosaur.png",
+      "../assets/images/aliens/HumungosaurButton.png"
     ],
     "series": "AF",
     "color": "stone"
@@ -674,8 +674,8 @@
       "Strong Wind Vulnerability"
     ],
     "images": [
-      "./src/assets/images/aliens/Jetray.png",
-      "./src/assets/images/aliens/JetrayButton.png"
+      "../assets/images/aliens/Jetray.png",
+      "../assets/images/aliens/JetrayButton.png"
     ],
     "series": "AF",
     "color": "red"
@@ -703,8 +703,8 @@
       "Electricity Vulnerability"
     ],
     "images": [
-      "./src/assets/images/aliens/BigChill.png",
-      "./src/assets/images/aliens/BigChillButton.png"
+      "../assets/images/aliens/BigChill.png",
+      "../assets/images/aliens/BigChillButton.png"
     ],
     "series": "AF",
     "color": "blue"
@@ -729,8 +729,8 @@
       "Absorption Limit"
     ],
     "images": [
-      "./src/assets/images/aliens/Chromastone.png",
-      "./src/assets/images/aliens/ChromastoneButton.png"
+      "../assets/images/aliens/Chromastone.png",
+      "../assets/images/aliens/ChromastoneButton.png"
     ],
     "series": "AF",
     "color": "pink"
@@ -756,8 +756,8 @@
       "Sonic Vibration Vulnerability"
     ],
     "images": [
-      "./src/assets/images/aliens/Brainstorm.png",
-      "./src/assets/images/aliens/BrainstormButton.png"
+      "../assets/images/aliens/Brainstorm.png",
+      "../assets/images/aliens/BrainstormButton.png"
     ],
     "series": "AF",
     "color": "orange"
@@ -781,8 +781,8 @@
       "Quill Vulnerability"
     ],
     "images": [
-      "./src/assets/images/aliens/Spidermonkey.png",
-      "./src/assets/images/aliens/SpidermonkeyButton.png"
+      "../assets/images/aliens/Spidermonkey.png",
+      "../assets/images/aliens/SpidermonkeyButton.png"
     ],
     "series": "AF",
     "color": "blue"
@@ -808,8 +808,8 @@
       "Boiling Point Limit"
     ],
     "images": [
-      "./src/assets/images/aliens/Goop.png",
-      "./src/assets/images/aliens/GoopButton.png"
+      "../assets/images/aliens/Goop.png",
+      "../assets/images/aliens/GoopButton.png"
     ],
     "series": "AF",
     "color": "lime"
@@ -836,8 +836,8 @@
       "Other Celestialsapiens"
     ],
     "images": [
-      "./src/assets/images/aliens/AlienX.png",
-      "./src/assets/images/aliens/AlienXButton.png"
+      "../assets/images/aliens/AlienX.png",
+      "../assets/images/aliens/AlienXButton.png"
     ],
     "series": "AF",
     "color": "green"
@@ -864,8 +864,8 @@
       "Strong Wind Vulnerability"
     ],
     "images": [
-      "./src/assets/images/aliens/Nanomech.png",
-      "./src/assets/images/aliens/NanomechButton.png"
+      "../assets/images/aliens/Nanomech.png",
+      "../assets/images/aliens/NanomechButton.png"
     ],
     "series": "AF",
     "color": "slate"
@@ -892,8 +892,8 @@
       "Water Vulnerability"
     ],
     "images": [
-      "./src/assets/images/aliens/Lodestar.png",
-      "./src/assets/images/aliens/LodestarButton.png"
+      "../assets/images/aliens/Lodestar.png",
+      "../assets/images/aliens/LodestarButton.png"
     ],
     "series": "AF",
     "color": "yellow"
@@ -921,8 +921,8 @@
       "Sensitive Hearing"
     ],
     "images": [
-      "./src/assets/images/aliens/Rath.png",
-      "./src/assets/images/aliens/RathButton.png"
+      "../assets/images/aliens/Rath.png",
+      "../assets/images/aliens/RathButton.png"
     ],
     "series": "AF",
     "color": "orange"
@@ -948,8 +948,8 @@
       "Cold Vulnerability"
     ],
     "images": [
-      "./src/assets/images/aliens/WaterHazard.png",
-      "./src/assets/images/aliens/WaterHazardButton.png"
+      "../assets/images/aliens/WaterHazard.png",
+      "../assets/images/aliens/WaterHazardButton.png"
     ],
     "series": "UA",
     "color": "red"
@@ -976,8 +976,8 @@
       "Neuroshock Blast Vulnerability"
     ],
     "images": [
-      "./src/assets/images/aliens/Ampfibian.png",
-      "./src/assets/images/aliens/AmpfibianButton.png"
+      "../assets/images/aliens/Ampfibian.png",
+      "../assets/images/aliens/AmpfibianButton.png"
     ],
     "series": "UA",
     "color": "cyan"
@@ -1004,8 +1004,8 @@
       "Quill Vulnerability"
     ],
     "images": [
-      "./src/assets/images/aliens/Armodrillo.png",
-      "./src/assets/images/aliens/ArmodrilloButton.png"
+      "../assets/images/aliens/Armodrillo.png",
+      "../assets/images/aliens/ArmodrilloButton.png"
     ],
     "series": "UA",
     "color": "yellow"
@@ -1033,8 +1033,8 @@
       "Blindspot"
     ],
     "images": [
-      "./src/assets/images/aliens/Terraspin.png",
-      "./src/assets/images/aliens/TerraspinButton.png"
+      "../assets/images/aliens/Terraspin.png",
+      "../assets/images/aliens/TerraspinButton.png"
     ],
     "series": "UA",
     "color": "lime"
@@ -1062,8 +1062,8 @@
       "Fire Suppressants"
     ],
     "images": [
-      "./src/assets/images/aliens/NRG.png",
-      "./src/assets/images/aliens/NRGButton.png"
+      "../assets/images/aliens/NRG.png",
+      "../assets/images/aliens/NRGButton.png"
     ],
     "series": "UA",
     "color": "slate"
@@ -1086,8 +1086,8 @@
       "Slippery Surfaces"
     ],
     "images": [
-      "./src/assets/images/aliens/Fasttrack.png",
-      "./src/assets/images/aliens/FasttrackButton.png"
+      "../assets/images/aliens/Fasttrack.png",
+      "../assets/images/aliens/FasttrackButton.png"
     ],
     "series": "UA",
     "color": "blue"
@@ -1111,8 +1111,8 @@
       "Bright Lights"
     ],
     "images": [
-      "./src/assets/images/aliens/Chamalien.png",
-      "./src/assets/images/aliens/ChamalienButton.png"
+      "../assets/images/aliens/Chamalien.png",
+      "../assets/images/aliens/ChamalienButton.png"
     ],
     "series": "UA",
     "color": "indigo"
@@ -1137,8 +1137,8 @@
       "Ingestion Limit"
     ],
     "images": [
-      "./src/assets/images/aliens/Eatle.png",
-      "./src/assets/images/aliens/EatleButton.png"
+      "../assets/images/aliens/Eatle.png",
+      "../assets/images/aliens/EatleButton.png"
     ],
     "series": "UA",
     "color": "slate"
@@ -1163,8 +1163,8 @@
       "Head Key Damage Vulnerability"
     ],
     "images": [
-      "./src/assets/images/aliens/Clockwork.png",
-      "./src/assets/images/aliens/ClockworkButton.png"
+      "../assets/images/aliens/Clockwork.png",
+      "../assets/images/aliens/ClockworkButton.png"
     ],
     "series": "UA",
     "color": "amber"
@@ -1189,8 +1189,8 @@
       "Electricity Absorption"
     ],
     "images": [
-      "./src/assets/images/aliens/Shocksquatch.png",
-      "./src/assets/images/aliens/ShocksquatchButton.png"
+      "../assets/images/aliens/Shocksquatch.png",
+      "../assets/images/aliens/ShocksquatchButton.png"
     ],
     "series": "UA",
     "color": "yellow"
@@ -1213,8 +1213,8 @@
       "Uncontrollable Habit"
     ],
     "images": [
-      "./src/assets/images/aliens/Juryrigg.png",
-      "./src/assets/images/aliens/JuryriggButton.png"
+      "../assets/images/aliens/Juryrigg.png",
+      "../assets/images/aliens/JuryriggButton.png"
     ],
     "series": "UA",
     "color": "red"
@@ -1242,8 +1242,8 @@
       "Uncontrollable Energy Blasts"
     ],
     "images": [
-      "./src/assets/images/aliens/Feedback.png",
-      "./src/assets/images/aliens/FeedbackButton.png"
+      "../assets/images/aliens/Feedback.png",
+      "../assets/images/aliens/FeedbackButton.png"
     ],
     "series": "OV",
     "color": "green"
@@ -1270,8 +1270,8 @@
       "Durability Limit"
     ],
     "images": [
-      "./src/assets/images/aliens/Bloxx.png",
-      "./src/assets/images/aliens/BloxxButton.png"
+      "../assets/images/aliens/Bloxx.png",
+      "../assets/images/aliens/BloxxButton.png"
     ],
     "series": "OV",
     "color": "red"
@@ -1298,8 +1298,8 @@
       "Uncontrollable Black Hole Generation"
     ],
     "images": [
-      "./src/assets/images/aliens/Gravattack.png",
-      "./src/assets/images/aliens/GravattackButton.png"
+      "../assets/images/aliens/Gravattack.png",
+      "../assets/images/aliens/GravattackButton.png"
     ],
     "series": "OV",
     "color": "amber"
@@ -1326,8 +1326,8 @@
       "Jumping Limit"
     ],
     "images": [
-      "./src/assets/images/aliens/Crashhopper.png",
-      "./src/assets/images/aliens/CrashhopperButton.png"
+      "../assets/images/aliens/Crashhopper.png",
+      "../assets/images/aliens/CrashhopperButton.png"
     ],
     "series": "OV",
     "color": "lime"
@@ -1353,8 +1353,8 @@
       "Plasma Neutralization"
     ],
     "images": [
-      "./src/assets/images/aliens/BallWeevil.png",
-      "./src/assets/images/aliens/BallWeevilButton.png"
+      "../assets/images/aliens/BallWeevil.png",
+      "../assets/images/aliens/BallWeevilButton.png"
     ],
     "series": "OV",
     "color": "yellow"
@@ -1377,8 +1377,8 @@
       "Slow Speed"
     ],
     "images": [
-      "./src/assets/images/aliens/Walkatrout.png",
-      "./src/assets/images/aliens/WalkatroutButton.png"
+      "../assets/images/aliens/Walkatrout.png",
+      "../assets/images/aliens/WalkatroutButton.png"
     ],
     "series": "OV",
     "color": "cyan"
@@ -1402,8 +1402,8 @@
       "Non-Living Opponents"
     ],
     "images": [
-      "./src/assets/images/aliens/PeskyDust.png",
-      "./src/assets/images/aliens/PeskyDustButton.png"
+      "../assets/images/aliens/PeskyDust.png",
+      "../assets/images/aliens/PeskyDustButton.png"
     ],
     "series": "OV",
     "color": "purple"
@@ -1427,8 +1427,8 @@
       "Small Size"
     ],
     "images": [
-      "./src/assets/images/aliens/MoleStache.png",
-      "./src/assets/images/aliens/MoleStacheButton.png"
+      "../assets/images/aliens/MoleStache.png",
+      "../assets/images/aliens/MoleStacheButton.png"
     ],
     "series": "OV",
     "color": "amber"
@@ -1449,8 +1449,8 @@
       "Lack of Combat"
     ],
     "images": [
-      "./src/assets/images/aliens/TheWorst.png",
-      "./src/assets/images/aliens/TheWorstButton.png"
+      "../assets/images/aliens/TheWorst.png",
+      "../assets/images/aliens/TheWorstButton.png"
     ],
     "series": "OV",
     "color": "yellow"
@@ -1475,8 +1475,8 @@
       "Electricity Vulnerability"
     ],
     "images": [
-      "./src/assets/images/aliens/KickinHawk.png",
-      "./src/assets/images/aliens/KickinHawkButton.png"
+      "../assets/images/aliens/KickinHawk.png",
+      "../assets/images/aliens/KickinHawkButton.png"
     ],
     "series": "OV",
     "color": "yellow"
@@ -1500,8 +1500,8 @@
       "Blind/Deaf Opponents"
     ],
     "images": [
-      "./src/assets/images/aliens/Toepick.png",
-      "./src/assets/images/aliens/ToepickButton.png"
+      "../assets/images/aliens/Toepick.png",
+      "../assets/images/aliens/ToepickButton.png"
     ],
     "series": "OV",
     "color": "lime"
@@ -1524,8 +1524,8 @@
       "Electricity Vulnerability"
     ],
     "images": [
-      "./src/assets/images/aliens/Astrodactyl.png",
-      "./src/assets/images/aliens/AstrodactylButton.png"
+      "../assets/images/aliens/Astrodactyl.png",
+      "../assets/images/aliens/AstrodactylButton.png"
     ],
     "series": "OV",
     "color": "orange"
@@ -1550,8 +1550,8 @@
       "Overstretched Tongue"
     ],
     "images": [
-      "./src/assets/images/aliens/Bullfrag.png",
-      "./src/assets/images/aliens/BullfragButton.png"
+      "../assets/images/aliens/Bullfrag.png",
+      "../assets/images/aliens/BullfragButton.png"
     ],
     "series": "OV",
     "color": "lime"
@@ -1576,8 +1576,8 @@
       "Stamina Limit"
     ],
     "images": [
-      "./src/assets/images/aliens/Atomix.png",
-      "./src/assets/images/aliens/AtomixButton.png"
+      "../assets/images/aliens/Atomix.png",
+      "../assets/images/aliens/AtomixButton.png"
     ],
     "series": "OV",
     "color": "lime"
@@ -1602,8 +1602,8 @@
       "Gas-Resistant Opponents"
     ],
     "images": [
-      "./src/assets/images/aliens/Gutrot.png",
-      "./src/assets/images/aliens/GutrotButton.png"
+      "../assets/images/aliens/Gutrot.png",
+      "../assets/images/aliens/GutrotButton.png"
     ],
     "series": "OV",
     "color": "indigo"
@@ -1631,8 +1631,8 @@
       "Hypnosis-Resistant Opponents"
     ],
     "images": [
-      "./src/assets/images/aliens/Whampire.png",
-      "./src/assets/images/aliens/WhampireButton.png"
+      "../assets/images/aliens/Whampire.png",
+      "../assets/images/aliens/WhampireButton.png"
     ],
     "series": "OV",
     "color": "green"
