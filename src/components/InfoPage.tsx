@@ -13,7 +13,7 @@ export default function InfoPage() {
               Welcome to Trixdex, the ultimate Ben 10 database that catalogs the various species of aliens featured throughout the series.
             </p>
           )}
-          color={'emerald'}
+          color={'green'}
         />
         <div className='flex justify-center w-full'>
           <InfoItem
@@ -30,7 +30,7 @@ export default function InfoPage() {
                 </a>
               </div>
             )}
-            color={'emerald'}
+            color={'green'}
           />
         </div>
         <InfoItem
@@ -40,7 +40,7 @@ export default function InfoPage() {
               Trixdex is a fan-created website and is not affiliated with the Ben 10 franchise or any of its intellectual property.
             </p>
           )}
-          color={'emerald'}
+          color={'green'}
         />
       </div>
     </div>

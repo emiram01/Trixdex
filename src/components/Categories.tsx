@@ -26,19 +26,19 @@ export default function SearchBar({ category, setCategory }: CategoriesProps) {
   return (
     <>
       <div className='text-white flex-row justify-center hidden md:flex'>
-        <button onClick={() => handleCategorySelect('')} className={`block px-4 h-16 font-extrabold hover:bg-gray-700 ${category === '' ? 'bg-gray-700 border-t-2 border-emerald-500' : ''}`}>
+        <button onClick={() => handleCategorySelect('')} className={`block px-4 h-16 font-extrabold hover:bg-gray-700 ${category === '' ? 'bg-gray-700 border-t-2 border-green-500' : ''}`}>
           <p className='w-10'>ALL</p>
         </button>
-        <button onClick={() => handleCategorySelect('OS')} className={`block px-4 h-16 hover:bg-gray-700 ${category === 'OS' ? 'bg-gray-700 border-t-2 border-emerald-500' : ''}`}>
+        <button onClick={() => handleCategorySelect('OS')} className={`block px-4 h-16 hover:bg-gray-700 ${category === 'OS' ? 'bg-gray-700 border-t-2 border-green-500' : ''}`}>
           <img src={os} className='w-10'/>
         </button>
-        <button onClick={() => handleCategorySelect('AF')} className={`block px-4 h-16 hover:bg-gray-700 ${category === 'AF' ? 'bg-gray-700 border-t-2 border-emerald-500' : ''}`}>
+        <button onClick={() => handleCategorySelect('AF')} className={`block px-4 h-16 hover:bg-gray-700 ${category === 'AF' ? 'bg-gray-700 border-t-2 border-green-500' : ''}`}>
           <img src={af} className='w-10'/>
         </button>
-        <button onClick={() => handleCategorySelect('UA')} className={`block px-4 h-16 hover:bg-gray-700 ${category === 'UA' ? 'bg-gray-700 border-t-2 border-emerald-500' : ''}`}>
+        <button onClick={() => handleCategorySelect('UA')} className={`block px-4 h-16 hover:bg-gray-700 ${category === 'UA' ? 'bg-gray-700 border-t-2 border-green-500' : ''}`}>
           <img src={ua} className='w-10'/>
         </button>
-        <button onClick={() => handleCategorySelect('OV')} className={`block px-4 h-16 hover:bg-gray-700 ${category === 'OV' ? 'bg-gray-700 border-t-2 border-emerald-500' : ''}`}>
+        <button onClick={() => handleCategorySelect('OV')} className={`block px-4 h-16 hover:bg-gray-700 ${category === 'OV' ? 'bg-gray-700 border-t-2 border-green-500' : ''}`}>
           <img src={ov} className='w-10'/>
         </button>
       </div>
@@ -48,19 +48,19 @@ export default function SearchBar({ category, setCategory }: CategoriesProps) {
         </button>
         {showDropdown && (
           <div className='absolute top-full bg-gray-900 rounded-lg' ref={dropdownRef}>
-            <button onClick={() => handleCategorySelect('')} className={`block px-4 py-2 mt-4 h-16 text-white font-extrabold hover:bg-gray-700 ${category === '' ? 'bg-gray-700 border-l-2 border-emerald-500' : ''}`}>
+            <button onClick={() => handleCategorySelect('')} className={`block px-4 py-2 mt-4 h-16 text-white font-extrabold hover:bg-gray-700 ${category === '' ? 'bg-gray-700 border-l-2 border-green-500' : ''}`}>
               <p className='w-10'>ALL</p>
             </button>
-            <button onClick={() => handleCategorySelect('OS')} className={`block px-4 py-2 h-16  hover:bg-gray-700 ${category === 'OS' ? 'bg-gray-700 border-l-2 border-emerald-500' : ''}`}>
+            <button onClick={() => handleCategorySelect('OS')} className={`block px-4 py-2 h-16  hover:bg-gray-700 ${category === 'OS' ? 'bg-gray-700 border-l-2 border-green-500' : ''}`}>
               <img src={os} className='w-10'/>
             </button>
-            <button onClick={() => handleCategorySelect('AF')} className={`block px-4 py-2 h-16 hover:bg-gray-700 ${category === 'AF' ? 'bg-gray-700 border-l-2 border-emerald-500' : ''}`}>
+            <button onClick={() => handleCategorySelect('AF')} className={`block px-4 py-2 h-16 hover:bg-gray-700 ${category === 'AF' ? 'bg-gray-700 border-l-2 border-green-500' : ''}`}>
               <img src={af} className='w-10'/>
             </button>
-            <button onClick={() => handleCategorySelect('UA')} className={`block px-4 py-2 h-16 hover:bg-gray-700 ${category === 'UA' ? 'bg-gray-700 border-l-2 border-emerald-500' : ''}`}>
+            <button onClick={() => handleCategorySelect('UA')} className={`block px-4 py-2 h-16 hover:bg-gray-700 ${category === 'UA' ? 'bg-gray-700 border-l-2 border-green-500' : ''}`}>
               <img src={ua} className='w-10'/>
             </button>
-            <button onClick={() => handleCategorySelect('OV')} className={`block px-4 py-2 h-16 hover:bg-gray-700 rounded-b-lg ${category === 'OV' ? 'bg-gray-700 border-l-2 border-emerald-500' : ''}`}>
+            <button onClick={() => handleCategorySelect('OV')} className={`block px-4 py-2 h-16 hover:bg-gray-700 rounded-b-lg ${category === 'OV' ? 'bg-gray-700 border-l-2 border-green-500' : ''}`}>
               <img src={ov} className='w-10'/>
             </button>
           </div>

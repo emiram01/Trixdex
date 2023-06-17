@@ -25,7 +25,7 @@ export default function AlienInfo() {
     <div className='overflow-x-hidden bg-gray-900 min-h-screen'>
       {alienInfo ? (
         <div className='container mx-auto'>
-          <div className='h-96 lg:h-[36rem] ml-[-50%] w-[200%] rounded-b-[100%] bg-emerald-500'>
+          <div className='h-96 lg:h-[36rem] ml-[-50%] w-[200%] rounded-b-[100%] bg-green-500'>
             <h2 className='text-4xl lg:text-5xl text-center text-white font-extrabold p-4'>
               {alienInfo.name.toUpperCase()}
             </h2>
@@ -42,7 +42,7 @@ export default function AlienInfo() {
               <InfoItem title='Origin'
                 content={(
                   <div className='py-4 flex justify-center m-auto items-center'>
-                    <img src={planet} className={`h-8 lg:h-10 filter ${alienInfo.homePlanet.includes('Unknown') ? 'grayscale' : 'hue-rotate-[310deg]'}`} />
+                    <img src={planet} className='h-8 lg:h-10 filter grayscale' />
                     <span className='ml-2 py-2'>{alienInfo.homePlanet}</span>
                   </div>
                 )}
