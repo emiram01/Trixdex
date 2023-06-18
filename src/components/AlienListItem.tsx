@@ -16,7 +16,7 @@ export default function AlienListItem({ filteredAlienList }: AlienListItemProps)
     <>
       {filteredAlienList.map((alien) => {
         return (
-          <div key={alien.id} className='bg-green-700 rounded-lg hover:scale-105'>
+          <div key={alien.id} className='bg-green-500 rounded-lg hover:scale-105'>
             <button
               onClick={() => handleClick(alien)}
               className='font-semibold bg-gradient-to-r from-green-500 from-10% via-green-500 via-30% to-[#ffffff00] to-100% px-4 py-2 rounded-lg h-20 flex items-center w-full hover:z-10 relative border-2 border-black'
