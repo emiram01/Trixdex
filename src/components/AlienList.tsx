@@ -32,7 +32,7 @@ export default function AlienList() {
   return (
     <>
       <div className='flex justify-center bg-gray-900'>
-        <img src={gif} className='mix-blend-color-dodge max-h-[50vh] opacity-20'></img>
+        <img src={gif} className='mix-blend-color-dodge max-h-[50vh] opacity-40 hue-rotate-30'></img>
       </div>
 
       <div className='bg-gray-900 border-b-2 border-black z-20 sticky top-0'>
