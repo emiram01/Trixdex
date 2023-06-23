@@ -1,6 +1,6 @@
 # Trixdex
 
-## 🌐 Live Site  ### [trixdex.com](https://trixdex.com/)
+## 🌐 Live Site: [trixdex.com](https://trixdex.com/)
 
 ## 📝 About
 
