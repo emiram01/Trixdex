@@ -1,5 +1,6 @@
 import linkedinicon from '../assets/images/icons/linkedinicon.svg';
 import githubicon from '../assets/images/icons/githubicon.svg';
+import ericon from '../assets/images/icons/ERicon.svg';
 import InfoItem from './InfoItem';
 
 export default function InfoPage() {
@@ -20,13 +21,17 @@ export default function InfoPage() {
             title='Contact'
             content={(
               <div className='flex flex-wrap font-medium text-white text-center justify-center'>
-                <a className='mx-auto flex hover:brightness-75 p-4' href='https://github.com/emiram01' target='_blank' rel='noopener noreferrer'>
-                  <img src={githubicon} alt='Logo' className='h-6 mr-2' />
+                <a className='mx-auto flex hover:brightness-75 p-4 items-center' href='https://github.com/emiram01' target='_blank' rel='noopener noreferrer'>
+                  <img src={githubicon} alt='Logo' className='w-6 mr-2' />
                   GitHub
                 </a>
-                <a className='mx-auto flex hover:brightness-75 p-4' href='https://linkedin.com/in/emiliano-ramirez-42233721a' target='_blank' rel='noopener noreferrer'>
-                  <img src={linkedinicon} alt='Logo' className='h-6 mr-2' />
+                <a className='mx-auto flex hover:brightness-75 p-4 items-center' href='https://linkedin.com/in/emiliano-ramirez-42233721a' target='_blank' rel='noopener noreferrer'>
+                  <img src={linkedinicon} alt='Logo' className='w-6 mr-2' />
                   LinkedIn
+                </a>
+                <a className='mx-auto flex hover:brightness-75 p-4 items-center' href='https://emilianoramirez.com' target='_blank' rel='noopener noreferrer'>
+                  <img src={ericon} alt='Logo' className='w-[1.6rem] mr-2' />
+                  Personal Site
                 </a>
               </div>
             )}
